@@ -1,0 +1,106 @@
+- title: Affiliation
+  type: list
+  contents:
+    - Université Paris Cité, Institut de Physique du Globe de Paris, CNRS, F-75005 Paris, France
+- title: Professional Positions
+  type: time_table
+  contents:
+    - title: Planetary and Space Sciences group leader
+      institution: Institut de Phsyique du Globe de Paris, France
+      year: 2012 - 2016
+    - title: Directeur de Recherche
+      institution: Centre National de la Recherche Scientifique, France
+      year: 2010 -
+    - title: Chargé de Recherche
+      institution: Centre National de la Recherche Scientifique, France
+      year: 2002 - 2010
+    - title: Postdoctoral Fellow
+      institution: Massachusetts Institute of Technology, Cambridge, Massachusetts, USA
+      year: 1999 - 2002
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Habilitation à Diriger des Recherches
+      institution: Université Paris VII, France
+      year: 2008
+
+    - title: Ph.D. Planetary Geophysics
+      institution: Washington University, St. Louis, Missouri, USA
+      description: Advisor, Roger Phillips
+      year: 1994 - 1999
+
+    - title: B.Sc. Physics
+      institution: State University of New York at Buffalo, New York, USA
+      description: Geology minor
+      year: 1988 - 1990
+
+    - title: Physics
+      institution: Rochester Institute of Technology, Rochester, New York, USA
+      year: 1988 - 1990
+
+- title: Professional Activities
+  type: time_table
+  contents:
+    - title: Editorial advisory board
+      institution: <a href="https://www.sciencedirect.com/journal/icarus/">Icarus</a> (Elsevier)
+      year: 2020 -
+    - title: Board of directors
+      institution: <a href="https://www.openplanetary.org/">OpenPlanetary</a>
+      year: 2020 -
+    - title: Editor in chief
+      institution: <a href="https://agupubs.onlinelibrary.wiley.com/journal/21699100">Journal of Geophysical Research Planets</a> (American Geophysical Union)
+      year: 2011 - 2015
+    - title: Advisory board
+      institution: ROBEX, Robotic Exploration of Extreme Environments (Helmholtz Alliance)
+      year: 2013 - 2016
+    - title: Co-chair
+      institution: International Lunar Network site selection working group
+      year: 2009 - 2011
+    - title: Member
+      institution: Group de travail système solaire (CNES)
+      year: 2009 - 2015
+    - title: Field party member
+      institution: ANSMET (Antarctic Search for Meteorites)
+      year: 1997 - 1998
+
+- title: Planetary Missions
+  type: time_table
+  contents:
+    - title: Lunar Vertex (NASA)
+      description: Co-investigator
+      year: 2021 -
+    - title: InSight (NASA)
+      description: Co-investigator
+      year: 2012 -
+    - title: Psyche (NASA)
+      description: Co-investigator
+      year: 2017 -
+    - title: BepiColumbo (ESA)
+      description: BepiColumbo Laser Altimeter (BELA), Co-investigator
+      year: 2005 -
+    - title: Jupiter Icy Moons Explorer, JUICE (ESA)
+      description: Ganymede Laser Altimter (GALA), Co-investigator
+      year: 2013 -
+    - title: Jupiter Icy Moons Explorer, JUICE (ESA)
+      description: Gravity & Geophysics of Jupiter and Galilean Moons (3GM), Associate
+      year: 2013 -
+    - title: Gravity Recovery and Interior Laboratory, GRAIL (NASA)
+      description: Co-investigator
+      year: 2021 -
+    - title: Chandrayaan-1 (ESA/ISRO)
+      description: Chandrayaan-1 X-ray Spectrometer (C1XS), Co-investigator
+      year: 2006 - 2010
+    - title: SMART-1 (ESA)
+      description: Demonstration Compact X-ray Spectrometer (D-CIXS), Co-investigator
+      year: 2004 - 2007
+
+- title: Academic Advising
+  type: map
+  contents:
+    - name: Postdocs
+      value: Benjamin Bultel (2022), Shengxia Gong (2019-2020), Joana Oliveira (2015-2017), Katarina Miljković (2012-2014), Wenzhe Fa (2009-2011), Hajime Hikida (2004-2006).
+    - name: Ph.D.s
+      value: Jing Yang (2024-), Julia Maia (2020-2023), Adrien Broquet (2017-2020), Jun Du (2017-2019), Shenxia Gong (2014-2016), Clément Thorey (2012–2015), Corrina Roy (2011-2014), Qian Huang (2009-2011), Matthieu Laneuville (2010-2013), Mathieu LeFeuvre (2008-2010), Virginie Beleguic (2003-2005).
+    - name: Masters
+      value: Kamilia Aziz (2024), Xi Yang (2022), Julia Maia (2020), Adrien Broquet (2016), Leila Gabasova (2016), Sébastien Labarre (2014), Romain Contant (2014), Simon Gernez (2012), Baptiste Mary (2011), Joachim Audouard (2010), Julie Cosmidis (2008), Mathieu LeFeuvre (2007).

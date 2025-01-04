@@ -1,0 +1,33 @@
+    {% if site.footer_fixed %}
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+      <img align="right" width=280 vspace=25 style="padding-bottom: 10px;" src="assets/img/ipgp_up_mix_blanc.png" alt="IPGP and Université Paris Cité logo">
+        <br />{{ site.footer_text }}<br /><br />&copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+        {%- if site.impressum_path -%}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+        {%- endif -%}
+        {%- if site.last_updated -%}
+        Last updated: {{ "now" | date: '%B %d, %Y' }}.
+        {%- endif %}
+      </div>
+    </footer>
+    {%- else -%}
+    <footer class="sticky-bottom mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            {{ site.footer_text }}
+          </div>
+          <div class="col-sm" align="right">
+            {% include figure.html path="assets/img/ipgp_up_mix_rvb.png" width="235" alt="IPGP and Université Paris Cité logo" %}
+          </div>
+        </div>
+        {%- if site.impressum_path -%}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+        {%- endif -%}
+        {%- if site.last_updated -%}
+        Last updated: {{ "now" | date: '%B %d, %Y' }}.
+        {%- endif %}
+      </div>
+    </footer>
+    {%- endif %}
