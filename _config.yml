@@ -230,7 +230,7 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 scholar:
 
   last_name: # [Lucas]
-  first_name: # [Antoine A., Antoine A, Antoine, M. A., M A, M, MA]
+  first_name: # [Antoine , Antoine , Antoine, . A.,]
 
   style: apa
   locale: en
