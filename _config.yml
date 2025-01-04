@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Antoine A. Lucas # the website title (if blank, full name will be used instead)
+title: Antoine Lucas # the website title (if blank, full name will be used instead)
 first_name: Antoine
 last_name: Lucas
-email: Antoine.Lucas@cnrs.fr
+email: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Antoine Lucas's web site at the Institut de Physique du Globe de Paris.
 footer_text: >
@@ -76,7 +76,7 @@ orcid_id: 0000-0003-2192-4416 #   your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # G-6427-2010 # your ID on Publons. NOW WEB OF SCIENCE RESEARHERID
-research_gate_profile: # your profile on ResearchGate
+research_gate_profile: Antoine-Lucas-2 # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username:  # your keybase user name
@@ -90,9 +90,9 @@ pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
 instagram_id: # your instagram id
 facebook_id: # your facebook id
-discord_id: # your discord id (18-digit unique numerical identifier)
-mastodon_username: dralucas  # your mastodon username, without @
-mastodon_instance: solarsystem.social  # address of the mastodon server
+discord_id: 1111387144653635615 # your discord id (18-digit unique numerical identifier)
+mastodon_username:   # your mastodon username, without @
+mastodon_instance:   # address of the mastodon server
 contact_note:
 
 # -----------------------------------------------------------------------------
