@@ -7,6 +7,13 @@ nav: true
 nav_order: 3
 ---
 
+<font style="color: var(--global-text-color-light)"><b>Avalanche de débris responsable d&#39;un tsunami dans un Fjord au Groenland
+</b></font>
+Animation réalisée en 2024 pour la publication {% cite svennevig:insu-04725704 %} 
+<iframe width="966" height="544" src="https://www.youtube.com/embed/POq5UPN2kmY" title="Avalanche de débris responsable d&#39;un tsunami dans un Fjord au Groenland" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br />
+
+
 
 <font style="color: var(--global-text-color-light)"><b>Dynamique des paysages dans le système solaire
 </b></font>
