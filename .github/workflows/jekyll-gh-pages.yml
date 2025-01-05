@@ -9,12 +9,11 @@ permissions:
   contents: read
   pages: write
   id-token: write
-  
+
 concurrency:
   group: ci-${{ github.ref }}
   cancel-in-progress: false
 
-  
 jobs:
   ci:
     name: ${{ matrix.ruby-version }} ${{ matrix.friendlyName }}-${{ matrix.arch }}
@@ -26,13 +25,11 @@ jobs:
           - "3.2"
         os:
           - ubuntu-latest
-
         arch:
           - x64
         include:
           - os: ubuntu-latest
             friendlyName: Linux
-
 
     steps:
       - name: Checkout repository
@@ -41,13 +38,15 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-        
-      - name: Setup Ruby and install bundle
+      - name: Setup Ruby and install bundler
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby-version }}
           bundler-cache: true
-          
+
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+
       - name: Compile and run test
         run: bundle install
 
@@ -58,7 +57,7 @@ jobs:
           bundle exec jekyll build --destination ./_site
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3 
+        uses: actions/upload-pages-artifact@v3
 
   deploy:
     environment:
@@ -69,4 +68,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4   
+        uses: actions/deploy-pages@v4
