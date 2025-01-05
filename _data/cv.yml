@@ -45,8 +45,9 @@
   type: map
   contents:
     - name: Postdocs
-      value: Léa Bonnefoy Bultel (2022), Shengxia Gong (2019-2020)
+      value: Léa Bonnefoy (2022), Shen Liang (2021)
     - name: Ph.D.s
-      value: Jing Yang (2024-), Julia Maia (2020-2023), Adrien Broquet (2017-2020), Jun Du (2017-2019), Shenxia Gong (2014-2016), Clément Thorey (2012–2015), Corrina Roy (2011-2014), Qian Huang (2009-2011), Matthieu Laneuville (2010-2013), Mathieu LeFeuvre (2008-2010), Virginie Beleguic (2003-2005).
-    - name: Masters
-      value: Kamilia Aziz (2024), Xi Yang (2022), Julia Maia (2020), Adrien Broquet (2016), Leila Gabasova (2016), Sébastien Labarre (2014), Romain Contant (2014), Simon Gernez (2012), Baptiste Mary (2011), Joachim Audouard (2010), Julie Cosmidis (2008), Mathieu LeFeuvre (2007).
+      value: Lorraine Delaroque (2024-), Yassine Boukhari (2022-), Dung Nguyen Tri (2021-2024), Alice Jacob (2019-2022), 
+Amande Roque-Bernard (2019-2022), Chloé Daudon (2018-2020)
+    - name: Masters II
+      value: Lorrain Delaroque (2024), Thibaut Céci (2024), Clara Garret (2024), Yassine Boukhari (2022), Justine Vilette (2022), Alexandra Le Contellec (2021), Julie Losen (2021), Sahand Sharifi (2021), Tuyen Nguyen (2020),  Valérie Genoud-Prachet (2018), Amande Roque-Bernard  (2018), David Talec (2016), Florentin Lemonnier (2015), Frédérique Romand (2015), Sébastien Labarre (2014), Samsophath Nhean (2013)
