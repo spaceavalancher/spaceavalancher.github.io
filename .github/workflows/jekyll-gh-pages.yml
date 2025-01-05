@@ -6,7 +6,9 @@ on:
     branches: [ main ]
 concurrency:
   group: ci-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
+
+  
 jobs:
   ci:
     name: ${{ matrix.ruby-version }} ${{ matrix.friendlyName }}-${{ matrix.arch }}
@@ -15,32 +17,50 @@ jobs:
     strategy:
       matrix:
         ruby-version:
-          - "2.6"
-          - "2.7"
-          - "3.0"
-          - "3.1"
           - "3.2"
         os:
           - ubuntu-latest
-          - macos-latest
-          - windows-latest
+
         arch:
           - x64
         include:
           - os: ubuntu-latest
             friendlyName: Linux
-          - os: macos-latest
-            friendlyName: macOS
-          - os: windows-latest
-            friendlyName: Windows
+
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+        
       - name: Setup Ruby and install bundle
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby-version }}
           bundler-cache: true
+          
       - name: Compile and run test
-        run: bundle exec cucumber
+        run: bundle install
+
+      - name: Build with Jekyll
+        run: |
+          source $GITHUB_ENV
+          echo $PATH
+          bundle exec jekyll build --destination ./_site
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3 
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: ci
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4   
