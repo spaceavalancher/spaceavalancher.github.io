@@ -7,4 +7,9 @@ nav: true
 nav_order: 3
 ---
 
+<font style="color: var(--global-text-color-light)"><b>Exploration des mers de sables sur Titan</b></font>
+[OpenPlanetary Lunch talk](https://www.openplanetary.org/), journée scientifique du labex UnivEarthS du 16 mai 2014 à AIM/CEA
+<iframe
+src="https://youtu.be/5IJql3HQj7w?t=390" width=500 height=250>
+</iframe>
 
