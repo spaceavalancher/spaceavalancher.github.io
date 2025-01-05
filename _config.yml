@@ -229,8 +229,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: Lucas # [Lucas]
-  first_name: Antoine, A. # [Antoine , Antoine , Antoine, . A.,]
+  last_name: Wieczorek # [Lucas]
+  first_name: Mark, A. # [Antoine , Antoine , Antoine, . A.,]
 
   style: apa
   locale: en
