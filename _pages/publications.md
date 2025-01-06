@@ -21,6 +21,8 @@ nav_order: 2
 {% endfor %}
 </div>
 
+<br>
+<h1 class="post-title">Other publications</h1>
 
 <div class="publications">
   {% bibliography -f others  %}
