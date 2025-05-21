@@ -1,6 +1,11 @@
 @techreport{michel:hal-03643411,
 TITLE = {{Sentinel-HR Phase 0 Report}},
-AUTHOR = {Michel, Julien and Hagolle, Olivier and Delvit, Jean-Marc and Thierry, Martin and Laurent, Lebegue and Laubier, David and Malet, Jean Philippe and J{\'e}rome, Legenne and Michaud, Jo{\"e}l and Juan, Vinasco-Salinas and Iliopoulos, Christelle and Le Corre, S{\'e}bastien and Dusseux, Pauline and K{\"a}{\"a}b, Andreas Max and Yesou, Herv{\'e} and Mouginot, Jeremie and Battiston, Stephanie and Clandillon, Stephen and Bergsma, Erwin W J and Berthier, Etienne and Lucas, Antoine and Dejoux, Jean-Fran{\c c}ois and Dedieu, G{\'e}rard and Puissant, Anne and Ferrant, Sylvain and Sheeren, David and Lefevre, Antoine and Cantou, Jean-Philippe and Cr{\'e}taux, Jean-Fran{\c c}ois and Almar, Rafael and Lelong, Camille and Maurel, Pierre and Faure, Jean-Fran{\c c}ois and Nabucet, Jean and Corpetti, Thomas and Herrault, Pierre-Alexis},
+AUTHOR = {Michel, Julien and Hagolle, Olivier and Delvit, Jean-Marc and Thierry, Martin and Laurent, Lebegue and Laubier, David and Malet, 
+Jean Philippe and J{\'e}rome, Legenne and Michaud, Jo{\"e}l and Juan, Vinasco-Salinas and Iliopoulos, Christelle and Le Corre, S{\'e}bastien and
+Dusseux, Pauline and K{\"a}{\"a}b, Andreas Max and Yesou, Herv{\'e} and Mouginot, Jeremie and Battiston, Stephanie and Clandillon, Stephen and 
+Bergsma, Erwin W J and Berthier, Etienne and Lucas, Antoine and Dejoux, Jean-Fran{\c c}ois and Dedieu, G{\'e}rard and Puissant, Anne and Ferrant,
+Sylvain and Sheeren, David and Lefevre, Antoine and Cantou, Jean-Philippe and Cr{\'e}taux, Jean-Fran{\c c}ois and Almar, Rafael and Lelong, 
+Camille and Maurel, Pierre and Faure, Jean-Fran{\c c}ois and Nabucet, Jean and Corpetti, Thomas and Herrault, Pierre-Alexis},
 URL = {https://hal.science/hal-03643411},
 INSTITUTION = {{CNES - Centre national d'{\'e}tudes spatiales ; CESBIO}},
 YEAR = {2022},
@@ -22,6 +27,23 @@ DOI = {10.36227/techrxiv.21303411.v1},
 PDF = {https://hal.science/hal-03815740v1/file/PARKER_paper.pdf},
 HAL_ID = {hal-03815740},
 HAL_VERSION = {v1},
+Abstract = {In recent decades, with the placement of LiDAR remote sensing instruments in orbit, we now have global coverage of 
+the bare ground elevation on the Earth, Mars and beyond. Encoded in such planetary LiDAR data are interesting landscape features 
+that promise to further our knowledge of planetary topography. However, discovery of such features comes with 3 major challenges:
+First, the volume of planetary LiDAR data can be massive, often comprising of hundreds of millions to billions of data points. 
+This  calling for analytical algorithms with great efficiency. Second, interesting features can often repeat themselves in multiple 
+scales in local regions, thus it is vital to enable multi-scale feature discovery. Third, planetary LiDAR data can be heterogeneous,
+and evaluation of the quality of the extracted features can often be hampered by a variety of interfering factors. In response to 
+these challenges, we propose FARMYARD, a generic pipeline for Feature Discovery From Planetary LiDAR Data. To the best of our knowledge,
+this is the first time such a pipeline has been proposed, which provides a brand new methodology for comparative studies of planetary 
+topography. Specifically, drawing on the parallel computing power of the Graphics Processing Unit (GPU), we propose a novel pseudo-on-pass
+sweep (POPS) framework for fast and memory-efficient feature extraction for massive planetary LiDAR data, a two-level division scheme
+for local regions with support for multi-scale features, and a Domain-Shifted Partition (DSP) scheme for feature evaluation that is 
+robust against interfering factors. To showcase the utility of our FARMYARD pipeline, we deploy it to an ongoing real-world research
+project called PARKER, which seeks to find topographical signatures of life by discovering features that can potentially distinguish 
+between the Earth and alien worlds with no known life activity. We also highlight the efficiency of our POPS framework with experiments
+on both synthetic and real data, which can be hundreds or even thousands of times faster than its CPU-based counterpart, including 
+an MPI-based multi-core parallel solution.}
 }
 
 @unpublished{liang:hal-03797767,
@@ -66,7 +88,8 @@ day={01},
 volume={5},
 number={8},
 pages={524-525},
-abstract={Enigmatically, some landslides flow farther than normal frictional resistance allows. Cassini images of Saturn's icy moon Iapetus reveal a multitude of long-runout landslides that may have been enabled by flash heating along the sliding surface.},
+abstract={Enigmatically, some landslides flow farther than normal frictional resistance allows. Cassini images of Saturn's icy moon 
+Iapetus reveal a multitude of long-runout landslides that may have been enabled by flash heating along the sliding surface.},
 issn={1752-0908},
 doi={10.1038/ngeo1532},
 url={https://doi.org/10.1038/ngeo1532}
@@ -83,8 +106,30 @@ KEYWORDS = {Valles Marineris ; Mars ; mobility ; dynamics ; Landslide ; avalanch
 TYPE = {Theses},
 PDF = {https://theses.hal.science/tel-00503212v1/file/these_blue.pdf},
 HAL_ID = {tel-00503212},
-abstract = {EN: Slope instabilities take part in weathering and transport processes at the surface. The runout distance is extensively used in analysis of landslide dynamics and in the calibration of the rheological parameters involved in numerical modelling. However, the unknown impact of the uncertainty in the shape of the initial released mass on the runout distance and on the overall shape of the deposit questions the relevance of these approaches. Indeed, the shape of the initial scar is generally unknown in real cases. Our study is based on numerical simulations coupled with remote sensing data analysis. The model used in this study has been intensively compared with laboratory experiments and well constrained natural cases in order to establish its range of use. We have also developed a pre-event topographic reconstruction method using remote sensing data allowing the study of the topographic and initial failure plane geometry effects. We show that the runout distance is a robust parameter that is only poorly affected by the initial scar geometry. On the contrary, the extent of the deposits perpendicular to the main mass displacement direction is shown to be controlled by the scar geometry, providing a unique tool to retrieve information of the initial failure geometry, as well as on the released volume. A feedback analysis of Martian landslides shows excellent agreement between numerical results and geomorphological evidence, providing insight into the initial landsliding conditions. In addition, we introduce a new empirical dissipation parameter allowing a good prediction of the runout in the simulation without any calibration for a given geological context.
- FR: Les instabilités gravitaires contribuent aux processus de transport de matière à la surface des planètes et constituent des risques importants pour les populations sur Terre. Afin d'apporter des contraintes sur la dynamique des instabilités gravitaires, notre étude se base sur le couplage entre simulation numérique et analyse des données par télédétection. Le modèle utilisé s'est montré capable de reproduire des ob- servations en laboratoire ainsi que la dynamique enregistrée par des signaux sismiques pour un exemple terrestre. En outre, nous avons développé une méthode de reconstruction topographique pré-glissement en utilisant les données satellitaires afin d'étudier les effets des conditions initiales. En effet, la distance d'arrêt (runout) des dépôts est très largement utilisée dans l'analyse de la dynamique des glissements de terrain ainsi que dans la calibration des paramètres rhéologiques impliqués dans la modélisation, et ce malgré les incertitudes sur la géométrie initiale. Nous montrons par des tests théoriques que le runout est faiblement affecté par la géométrie du plan de rupture. Au contraire, l'extension latérale se révèle être contrôlée par la géométrie initiale ce qui fourni un cadre unique pour remonter également au volume initial. L'application aux exemples martiens apporte des contraintes sur les conditions de mise en place et ouvre de nouvelles perspectives pour la compréhension de la dynamique de ces processus. En outre, nous introduisons un nouveau paramètre de dissipation empirique indépendant de la topographie permettant, sans calibration, de retrouver par la simulation la bonne distance de runout dans un contexte géologique donné.
+abstract = {EN: Slope instabilities take part in weathering and transport processes at the surface. The runout distance is extensively used in 
+analysis of landslide dynamics and in the calibration of the rheological parameters involved in numerical modelling. However, the unknown impact
+of the uncertainty in the shape of the initial released mass on the runout distance and on the overall shape of the deposit questions the relevance
+of these approaches. Indeed, the shape of the initial scar is generally unknown in real cases. Our study is based on numerical simulations coupled 
+with remote sensing data analysis. The model used in this study has been intensively compared with laboratory experiments and well constrained natural
+cases in order to establish its range of use. We have also developed a pre-event topographic reconstruction method using remote sensing data allowing 
+the study of the topographic and initial failure plane geometry effects. We show that the runout distance is a robust parameter that is only poorly
+affected by the initial scar geometry. On the contrary, the extent of the deposits perpendicular to the main mass displacement direction is shown 
+to be controlled by the scar geometry, providing a unique tool to retrieve information of the initial failure geometry, as well as on the released volume. 
+A feedback analysis of Martian landslides shows excellent agreement between numerical results and geomorphological evidence, providing insight into 
+the initial landsliding conditions. In addition, we introduce a new empirical dissipation parameter allowing a good prediction of the runout in
+the simulation without any calibration for a given geological context.
+ FR: Les instabilités gravitaires contribuent aux processus de transport de matière à la surface des planètes et constituent des risques 
+importants pour les populations sur Terre. Afin d'apporter des contraintes sur la dynamique des instabilités gravitaires, notre étude se base 
+sur le couplage entre simulation numérique et analyse des données par télédétection. Le modèle utilisé s'est montré capable de reproduire des observations
+en laboratoire ainsi que la dynamique enregistrée par des signaux sismiques pour un exemple terrestre. En outre, nous avons développé une méthode de 
+reconstruction topographique pré-glissement en utilisant les données satellitaires afin d'étudier les effets des conditions initiales. En effet, 
+la distance d'arrêt (runout) des dépôts est très largement utilisée dans l'analyse de la dynamique des glissements de terrain ainsi que dans 
+la calibration des paramètres rhéologiques impliqués dans la modélisation, et ce malgré les incertitudes sur la géométrie initiale. Nous montrons
+par des tests théoriques que le runout est faiblement affecté par la géométrie du plan de rupture. Au contraire, l'extension latérale se révèle être
+contrôlée par la géométrie initiale ce qui fourni un cadre unique pour remonter également au volume initial. L'application aux exemples martiens
+apporte des contraintes sur les conditions de mise en place et ouvre de nouvelles perspectives pour la compréhension de la dynamique de ces processus. 
+En outre, nous introduisons un nouveau paramètre de dissipation empirique indépendant de la topographie permettant, sans calibration, de retrouver par 
+la simulation la bonne distance de runout dans un contexte géologique donné.
 },
 HAL_VERSION = {v1},
 }
@@ -99,4 +144,12 @@ MONTH = Jun,
 PDF = {https://hal.science/hal-03256825v1/file/IFLDM-Proc2007.pdf},
 HAL_ID = {hal-03256825},
 HAL_VERSION = {v1},
+Abstract ={For the International Forum on Landslide Disaster Management 2007 framework, our team performed several numerical simulations on 
+both theoretical and natural cases of granular flows. The objective was to figure out the ability and the limits of our numerical model in 
+terms of reproduction and prediction. Our benchmarking exercises show that for almost all the cases, the model we use is able to reproduce 
+observations at the field scale. Calibrated friction angles are almost similar to that used in other models and the shape of the final deposits
+is in good agreement with observation. However, as it is tricky to compare the dynamics of natural cases, these exercises do not allow us to highlight
+the good ability to reproduce the behavior of natural landslides. Nevertheless, by comparing with analytical solution, we show that our model presents
+very low numerical dissipation due to the discretization and to the numerical scheme used. Finally, in terms of mitigation and prediction, the different 
+friction angles used for each cases figure out the limits of using such model as long as constitutive equations for granular media are not known.}
 }
