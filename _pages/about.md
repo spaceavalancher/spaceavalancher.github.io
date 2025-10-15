@@ -21,9 +21,8 @@ social: true  # includes social icons at the bottom of the page
 <font style="color: var(--global-text-color-light)"><b>CNRS research scientist</b></font>
 <br />
 
-
 ### About me ###
-My research is focused on understanding the evolution of surfaces and near surfaces of the Earth and other planets, including lakes on Titan, landslides on Mars and icy satellites as well as aeolian transport on Mars, Venus and Titan. Other planets allow us to test our understanding of geological and climate processes under a wide range of conditions. By combining observations from planetary exploration missions with image processing and numerical modeling, I try to understand what controls the evolution of continental surfaces (including planetary counterparts) and more specifically mass wasting (landslides, avalanches, debris flows...), aeolian and hydrology processes. I defined mysleft as a space-hacker, an astro-geologist, a landscape-analyst and a space avalancher.
+My research is focused on understanding the evolution of surfaces and near surfaces of the Earth and other planets, including lakes on Titan, landslides on Mars and icy satellites as well as aeolian transport on Mars, Venus and Titan. Other planets allow us to test our understanding of geological and climate processes under a wide range of conditions. By combining observations from planetary exploration missions with image processing and numerical modeling, I try to understand what controls the evolution of continental surfaces (including planetary counterparts) and more specifically mass wasting (landslides, avalanches, debris flows...), aeolian and hydrology processes. A geomorphologist by objects of study, a geophysicist by methods, and a planetary scientist by perspective; I defined mysleft as a space-hacker, an astro-geologist, a landscape-analyst and a space avalancher. 
 
-Along with my scientific activites, I am also in charge of the <a href="https://master-rn2m.ipgp.fr" target="_blank">Natural Hazard master program</a> at IPGP since 2023. 
+Along with my scientific activites, I am also in charge of the <a href="https://master-rn2m.ipgp.fr" target="_blank">Natural Hazard master program</a> at IPGP/Université Paris Cité since 2023. 
 
