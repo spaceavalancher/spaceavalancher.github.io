@@ -1,0 +1,12 @@
+---
+---
+{%- assign venue = entry.venue
+  | default: entry.journal
+  | default: entry.booktitle
+  | default: entry.series
+  | default: entry.institution
+  | default: entry.school
+  | default: entry.publisher
+  | default: entry.howpublished -%}
+
+{{ reference }}{% if venue %} <em>{{ venue }}</em>{% endif %}
