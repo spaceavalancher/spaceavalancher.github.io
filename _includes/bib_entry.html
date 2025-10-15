@@ -1,24 +1,12 @@
-{% assign venue = entry.journal
+---
+---
+{%- assign venue = entry.venue
+  | default: entry.journal
   | default: entry.booktitle
   | default: entry.series
   | default: entry.institution
   | default: entry.school
   | default: entry.publisher
-  | default: entry.howpublished %}
+  | default: entry.howpublished -%}
 
-<li id="{{ entry.key }}" class="bib-entry">
-  <span class="bib-title">{{ entry.title }}</span><br>
-  <span class="bib-author">{{ entry.author }}</span>
-  {% if entry.year %}, <span class="bib-year">{{ entry.year }}</span>{% endif %}.
-  {% if venue %} <em>{{ venue }}</em>{% endif %}
-  {% if entry.note %} {{ entry.note }}{% endif %}
-  {% if entry.url %}
-    [<a href="{{ entry.url }}">link</a>]
-  {% endif %}
-  {% if entry.pdf %}
-    [<a href="{{ entry.pdf }}">pdf</a>]
-  {% endif %}
-  {% if entry.abstract %}
-    <p class="bib-abstract">{{ entry.abstract }}</p>
-  {% endif %}
-</li>
+{{ reference }}{% if venue %} <em>{{ venue }}</em>{% endif %}
