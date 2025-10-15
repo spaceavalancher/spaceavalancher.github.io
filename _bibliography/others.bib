@@ -1,92 +1,70 @@
-@Article{lucashdr,
-TITLE = {{Geomorphic transports in Terrestrial & Planetary Critical Zones}},
-AUTHOR = {Lucas, Antoine},
-SCHOOL = {{Université Paris Cité}},
-YEAR = {2025},
-MONTH = Oct,
-KEYWORDS = {Planetary surface ; Dune ; Landslide ; Avalanche ; River ; Climate},
-TYPE = {Habilitation à Diriger des Recherches},
-journal = {HDR}
+@phdthesis{lucashdr,
+  author = {Lucas, Antoine},
+  title  = {Geomorphic transports in Terrestrial \& Planetary Critical Zones},
+  school = {Université Paris Cité},
+  year   = {2025},
+  month  = oct,
+  type   = {Habilitation à Diriger des Recherches}
 }
 
-@Article{michel:hal-03643411,
-TITLE = {{Sentinel-HR Phase 0 Report}},
-AUTHOR = {Michel, Julien and Hagolle, Olivier and Delvit, Jean-Marc and Thierry, Martin and Laurent, Lebegue and Laubier, David and Malet, 
-Jean Philippe and J{\'e}rome, Legenne and Michaud, Jo{\"e}l and Juan, Vinasco-Salinas and Iliopoulos, Christelle and Le Corre, S{\'e}bastien and
-Dusseux, Pauline and K{\"a}{\"a}b, Andreas Max and Yesou, Herv{\'e} and Mouginot, Jeremie and Battiston, Stephanie and Clandillon, Stephen and 
-Bergsma, Erwin W J and Berthier, Etienne and Lucas, Antoine and Dejoux, Jean-Fran{\c c}ois and Dedieu, G{\'e}rard and Puissant, Anne and Ferrant,
-Sylvain and Sheeren, David and Lefevre, Antoine and Cantou, Jean-Philippe and Cr{\'e}taux, Jean-Fran{\c c}ois and Almar, Rafael and Lelong, 
-Camille and Maurel, Pierre and Faure, Jean-Fran{\c c}ois and Nabucet, Jean and Corpetti, Thomas and Herrault, Pierre-Alexis},
-URL = {https://hal.science/hal-03643411},
-INSTITUTION = {{CNES - Centre national d'{\'e}tudes spatiales ; CESBIO}},
-YEAR = {2022},
-MONTH = Apr,
-KEYWORDS = {T{\'e}l{\'e}d{\'e}tection ; Radiometry ; Time archive},
-PDF = {https://hal.science/hal-03643411v1/file/sentinel-hr_phase0_report.pdf},
-HAL_ID = {hal-03643411},
-HAL_VERSION = {v1},
+@techreport{michel:hal-03643411,
+  title        = {Sentinel-HR Phase 0 Report},
+  author       = {Michel, Julien and Hagolle, Olivier and ... and Lucas, Antoine and ...},
+  institution  = {CNES; CESBIO},
+  year         = {2022},
+  month        = apr,
+  url          = {https://hal.science/hal-03643411},
+  number       = {HAL-03643411},
+  type         = {Technical Report},
+  pdf          = {https://hal.science/hal-03643411v1/file/sentinel-hr_phase0_report.pdf}
 }
 
-@Article{liang:hal-03815740,
-TITLE = {{FARMYARD: A Generic GPU-based Pipeline for Feature Discovery from Massive Planetary LiDAR Data}},
-AUTHOR = {Liang, Shen and Lucas, Antoine and Porder, Stephen and Sainton, Gregory and Fournier, Alexandre and Palpanas, Themis},
-URL = {https://hal.science/hal-03815740},
-NOTE = {working paper or preprint},
-YEAR = {2022},
-MONTH = Oct,
-DOI = {10.36227/techrxiv.21303411.v1},
-PDF = {https://hal.science/hal-03815740v1/file/PARKER_paper.pdf},
-HAL_ID = {hal-03815740},
-HAL_VERSION = {v1},
-Abstract = {In recent decades, with the placement of LiDAR remote sensing instruments in orbit, we now have global coverage of 
-the bare ground elevation on the Earth, Mars and beyond. Encoded in such planetary LiDAR data are interesting landscape features 
-that promise to further our knowledge of planetary topography. However, discovery of such features comes with 3 major challenges:
-First, the volume of planetary LiDAR data can be massive, often comprising of hundreds of millions to billions of data points. 
-This  calling for analytical algorithms with great efficiency. Second, interesting features can often repeat themselves in multiple 
-scales in local regions, thus it is vital to enable multi-scale feature discovery. Third, planetary LiDAR data can be heterogeneous,
-and evaluation of the quality of the extracted features can often be hampered by a variety of interfering factors. In response to 
-these challenges, we propose FARMYARD, a generic pipeline for Feature Discovery From Planetary LiDAR Data. To the best of our knowledge,
-this is the first time such a pipeline has been proposed, which provides a brand new methodology for comparative studies of planetary 
-topography. Specifically, drawing on the parallel computing power of the Graphics Processing Unit (GPU), we propose a novel pseudo-on-pass
-sweep (POPS) framework for fast and memory-efficient feature extraction for massive planetary LiDAR data, a two-level division scheme
-for local regions with support for multi-scale features, and a Domain-Shifted Partition (DSP) scheme for feature evaluation that is 
-robust against interfering factors. To showcase the utility of our FARMYARD pipeline, we deploy it to an ongoing real-world research
-project called PARKER, which seeks to find topographical signatures of life by discovering features that can potentially distinguish 
-between the Earth and alien worlds with no known life activity. We also highlight the efficiency of our POPS framework with experiments
-on both synthetic and real data, which can be hundreds or even thousands of times faster than its CPU-based counterpart, including 
-an MPI-based multi-core parallel solution.}
+@article{Lucas_2019,
+  author  = {Lucas, Antoine and Gayer, Eric},
+  title   = {Geomorphic transport from historical shape from motion: Implications for tropical and alpine environments},
+  year    = {2019},
+  month   = dec,
+  doi     = {10.1002/essoar.10501233.1},
+  url     = {http://dx.doi.org/10.1002/essoar.10501233.1},
+  journal = {ESSOAr Preprint},
+  note    = {Preprint}
 }
 
-@Article{liang:hal-03797767,
-TITLE = {{POPS: An Efficient Framework for GPU-based Feature Extraction of Massive Gridded Planetary LiDAR Data [Scalable Data Science]}},
-AUTHOR = {Liang, Shen and Palpanas, Themis and Lucas, Antoine},
-URL = {https://hal.science/hal-03797767},
-NOTE = {working paper or preprint},
-YEAR = {2022},
-MONTH = Oct,
-PDF = {https://hal.science/hal-03797767v1/file/PVLDB_POPS.pdf},
-HAL_ID = {hal-03797767},
-HAL_VERSION = {v1},
+@article{liang:hal-03815740,
+  title   = {FARMYARD: A Generic GPU-based Pipeline for Feature Discovery from Massive Planetary LiDAR Data},
+  author  = {Liang, Shen and Lucas, Antoine and ...},
+  year    = {2022},
+  month   = oct,
+  doi     = {10.36227/techrxiv.21303411.v1},
+  url     = {https://hal.science/hal-03815740},
+  journal = {TechRxiv Preprint},
+  note    = {Also on HAL (preprint)}
+}
+
+@article{liang:hal-03797767,
+  title   = {POPS: An Efficient Framework for GPU-based Feature Extraction of Massive Gridded Planetary LiDAR Data},
+  author  = {Liang, Shen and Palpanas, Themis and Lucas, Antoine},
+  year    = {2022},
+  month   = oct,
+  url     = {https://hal.science/hal-03797767},
+  journal = {HAL Preprint},
+  note    = {Preprint}
 }
 
 
-@Article{Lucas_2019, 
-title={Geomorphic transport from historical shape from motion: Implications for tropical and alpine environments},
-url={http://dx.doi.org/10.1002/essoar.10501233.1}, DOI={10.1002/essoar.10501233.1},
-publisher={Wiley}, 
-author={Lucas, Antoine and Gayer, Eric}, 
-year={2019}, month=dec }
+@incollection{Aharonson_Hayes_Hayne_Lopes_Lucas_Perron_2014,
+  author={Aharonson, O. and Hayes, A. G. and Hayne, P. O. and Lopes, R. M. and Lucas, A. and Perron, J. T.}, 
+  title     = {Titan’s surface geology},
+  booktitle = {Titan: Interior, Surface, Atmosphere, and Space Environment},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge},
+  year      = {2014},
+  pages     = {63--101},
+  series    = {Cambridge Planetary Science},
+  editor    = {Müller-Wodarg, Ingo and Griffith, Caitlin A. and Lellouch, Emmanuel and Cravens, Thomas E.}
+}
 
 
-@inbook{Aharonson_Hayes_Hayne_Lopes_Lucas_Perron_2014, 
-place={Cambridge}, series={Cambridge Planetary Science},
- title={Titan’s surface geology}, 
- booktitle={Titan: Interior, Surface, Atmosphere, and Space Environment}, 
- publisher={Cambridge University Press}, 
- author={Aharonson, O. and Hayes, A. G. and Hayne, P. O. and Lopes, R. M. and Lucas, A. and Perron, J. T.}, 
- editor={Müller-Wodarg, Ingo and Griffith, Caitlin A. and Lellouch, Emmanuel and Cravens, Thomas E.Editors}, 
- year={2014}, pages={63–101}, 
- collection={Cambridge Planetary Science}} <div></div>
 
 
 @Article{Lucas2012,
