@@ -13,6 +13,16 @@ nav_order: 2
 * **Google Scholar:** [8kg1qzsAAAAJ](https://scholar.google.com/citations?user=8kg1qzsAAAAJ)
 * **HAL (open archive):** [dralucas](https://cv.archives-ouvertes.fr/dralucas)
 
+{%- capture venue_template -%}{% raw %}
+{{ reference }}{% assign venue = entry.journal
+  | default: entry.booktitle
+  | default: entry.institution
+  | default: entry.school
+  | default: entry.publisher %}
+{% if venue %} <em>{{ venue }}</em>{% endif %}
+{% endraw %}{%- endcapture -%}
+
+
 <div class="publications">
 
 {%- for y in page.years %}
@@ -25,6 +35,6 @@ nav_order: 2
 <h1 class="post-title">Other publications</h1>
 
 <div class="publications">
-  {% bibliography -f others %}
+  {% bibliography -f others --template venue_template %}
 </div>
 
