@@ -25,6 +25,6 @@ nav_order: 2
 <h1 class="post-title">Other publications</h1>
 
 <div class="publications">
-   {% bibliography -f others %}
+    {% bibliography -f others --template "{{ reference }}{% assign venue = entry.journal | default: entry.booktitle | default: entry.institution | default: entry.school | default: entry.publisher %}{% if venue %} <em>{{ venue }}</em>{% endif %}" %}
 </div>
 
