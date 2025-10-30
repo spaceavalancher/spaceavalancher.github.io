@@ -48,7 +48,7 @@ Under my scientific supervision, Léa investigated the dielectric properties of 
 The project resulted in multiple international conference presentations and one peer-reviewed publication.
 Léa is now completing her post-doctoral research at LMD, Sorbonne Université.
 
-**Since 2021 — Shen Liang**
+**2021 — Shen Liang**
 *Post-doctoral researcher (100 % supervision, DiiP–funded PARKKER project, PI)*
 In 2021, Shen and I developed the **FARMYARD** framework, which led to two peer-reviewed conference papers and a manuscript currently under revision for *IEEE Transactions on Knowledge and Data Engineering*.
 Shen continues to work at DiiP on another project, and our collaboration remains active.
