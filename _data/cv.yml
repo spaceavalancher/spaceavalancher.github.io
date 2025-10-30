@@ -24,13 +24,13 @@
 - title: Education
   type: time_table
   contents:
-    - title: HDR 
+    - title: Habilitation à diriger des recherches - HDR 
       institution: Université Paris Cités
       year: 2025       
     - title: Ph.D. Planetary Geophysics
       institution: IPGP
       description: Advisor, Anne Mangney (IPGP), Co-Advisor, Daniel Mege (LPGN)
-      year: 2006 - 2010
+      year: 2010 
 
 
 - title: Planetary Missions
