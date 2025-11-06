@@ -116,6 +116,10 @@ maps rockfalls near NASA’s FSS lunar landing site to assess surface mass wasti
 *2nd-year engineering student in Geomatics & Photogrammetry, ENSG-IGN*
 quantifies lunar surface roughness at multiple scales from Apollo mission imagery.
 
+**Mathilde Ballot**
+*3rd-year SciencePo-IPGP student in Geophysics*
+models snow-avalanche backscattering using Sentinel-1 SAR data.
+
 **Matthieu Lecocq**
 *1st-year MSc student in Geophysics, IPGP*
 detects dust avalanches on Mars using orbital imagery.
