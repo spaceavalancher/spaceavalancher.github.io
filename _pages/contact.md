@@ -4,7 +4,7 @@ permalink: /contact/
 title: Contact
 description:
 nav: true
-nav_order: 7
+nav_order: 8
 ---
 <font style="font-family: monospace; font-weight: bold">in person</font>
 * <span style="color: var(--global-text-color-light)">office :</span> 723, Lamarck A
