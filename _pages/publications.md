@@ -31,5 +31,5 @@ nav_order: 2
 <h1 class="post-title">Thesis</h1>
 
 <div class="publications">
-  {% bibliography -f thesis %}
+  {% bibliography -f thesis  --template thesis %}
 </div>
