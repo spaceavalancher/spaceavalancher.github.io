@@ -23,4 +23,29 @@
       </em>.
     {%- endif %}
   </span>
+
+  {%- comment -%}
+    Liens vers la page en ligne (url) et le PDF (pdf)
+  {%- endcomment -%}
+  {%- if entry.url or entry.pdf %}
+    <div class="thesis-links">
+      {%- if entry.url -%}
+        <a href="{{ entry.url }}">Online record</a>
+      {%- endif -%}
+      {%- if entry.pdf -%}
+        {%- if entry.url %} | {% endif -%}
+        <a href="{{ entry.pdf }}">PDF</a>
+      {%- endif -%}
+    </div>
+  {%- endif %}
+
+  {%- comment -%}
+    Abstract replié dans un bloc <details>
+  {%- endcomment -%}
+  {%- if entry.abstract %}
+    <details>
+      <summary>Abstract</summary>
+      <p>{{ entry.abstract | newline_to_br }}</p>
+    </details>
+  {%- endif %}
 </li>
