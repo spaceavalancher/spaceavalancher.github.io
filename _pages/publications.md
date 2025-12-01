@@ -28,3 +28,8 @@ nav_order: 2
   {% bibliography -f others %}
 </div>
 
+<h1 class="post-title">Thesis</h1>
+
+<div class="publications">
+  {% bibliography -f thesis %}
+</div>
