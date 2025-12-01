@@ -1,0 +1,26 @@
+---
+---
+<li>
+  <span id="{{ key }}">
+    <strong>{{ entry.title }}</strong><br/>
+    {{ entry.author }}<br/>
+
+    {%- if entry.howpublished or entry.type %}
+      <em>
+      {%- if entry.howpublished -%}
+        {{ entry.howpublished }}
+      {%- else -%}
+        {{ entry.type }}
+      {%- endif -%}
+      {%- if entry.school %}, {{ entry.school }}{% endif %}
+      {%- if entry.year %}, {{ entry.year }}.{% else %}.{% endif %}
+      </em>
+    {%- elsif entry.school or entry.year %}
+      <em>
+        {%- if entry.school %}{{ entry.school }}{% endif %}
+        {%- if entry.school and entry.year %}, {% endif %}
+        {%- if entry.year %}{{ entry.year }}{% endif %}
+      </em>.
+    {%- endif %}
+  </span>
+</li>
