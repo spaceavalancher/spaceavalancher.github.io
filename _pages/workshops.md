@@ -13,7 +13,7 @@ I am (co-)organising several meetings and workshops at national and internationa
 
 ### 2027 
 #### Geosciences Artificial Intelligence Applications (École de physique des Houches)
-- Website and program to be announced. 
+- Website: [https://solarsystem.events/event/6/]{https://solarsystem.events/event/6/} 
 
 
 ---
