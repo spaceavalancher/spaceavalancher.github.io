@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-<div class="people-page">
+<div class="people-page" markdown="1">
 I co-supervise PhD students and graduate students at IPGP across a range of research themes, including seismic signal classification, SAR-based and LiDAR monitoring of geomorphic processes, landslides and avalanches, sediment transport dynamics, and the modeling of surface evolution on Earth and other planetary bodies. These projects combine remote sensing, numerical simulations, seismology, and machine learning techniques.
 
 They contribute to tackling complex questions at the intersection of geomorphology, geophysics, remote sensing, and planetary science, with a strong emphasis on:

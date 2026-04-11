@@ -7,7 +7,7 @@ nav: true
 nav_order: 7
 ---
 
-<div class="workshops-page">
+<div class="workshops-page" markdown="1">
 I co-organize several meetings and workshops at the national and international levels.
 
 
