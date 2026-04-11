@@ -7,6 +7,7 @@ nav: true
 nav_order: 4
 display_categories: [datasets, software, teaching]
 horizontal: true
+compact_cards: true
 ---
 <!-- pages/projects.md -->
 This page gathers research datasets, scientific software, and teaching resources associated with my work. Each entry points to a primary repository or archive record, with previews stored locally on this site for long-term stability.
