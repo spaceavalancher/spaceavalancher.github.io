@@ -269,8 +269,7 @@ imagemagick:
   enabled: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
-    - 800
-    - 1400
+    - 900
   input_directories:
     - assets/img/
   input_formats:
