@@ -26,10 +26,6 @@ This is where applied field science meets computational geoscience and mission-o
 *PhD student (30 % supervision, co-supervised with S. Rodriguez and T. Kawamura)*
 Works on Titan seismology in preparation for NASA’s *Dragonfly* mission (launch planned for 2036).
 
-**Since 2022 — Yassine Boukhari**
-*PhD student (80 % supervision, co-supervised with S. Jacquemoud)*
-Studies solid transport in small Alpine and tropical catchments using satellite imagery, LiDAR, long-term observatory records, and machine learning.
-
 ## Current Interns
 
 **Milan Mauro**
@@ -65,6 +61,10 @@ Matthieu now holds a permanent position at GeoAzur, after a period working in th
 
 
 ## Past PhD Students
+
+**Defended November 2025 — Yassine Boukhari**
+*PhD student (80 % supervision, co-supervised with S. Jacquemoud)*
+Studied solid transport in small Alpine and tropical catchments using satellite imagery, LiDAR, long-term observatory records, and machine learning.
 
 **Defended 2025 — Coline Hopquin**
 *PhD student (30 % supervision, co-supervised with E. Gayer and L. Michon)*

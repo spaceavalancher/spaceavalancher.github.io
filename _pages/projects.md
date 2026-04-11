@@ -9,6 +9,8 @@ display_categories: [datasets, software, teaching]
 horizontal: true
 ---
 <!-- pages/projects.md -->
+This page gathers research datasets, scientific software, and teaching resources associated with my work. Each entry points to a primary repository or archive record, with previews stored locally on this site for long-term stability.
+
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
@@ -19,7 +21,7 @@ horizontal: true
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
-    <div class="row row-cols-2">
+    <div class="row row-cols-1">
     {%- for project in sorted_projects -%}
       {% include projects_horizontal.html %}
     {%- endfor %}
@@ -40,7 +42,7 @@ horizontal: true
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
-    <div class="row row-cols-2">
+    <div class="row row-cols-1">
     {%- for project in sorted_projects -%}
       {% include projects_horizontal.html %}
     {%- endfor %}
