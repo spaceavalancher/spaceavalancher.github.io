@@ -294,6 +294,25 @@ footer.sticky-bottom {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
+
+  .footer-logos {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    figure {
+      margin: 0;
+    }
+
+    img {
+      display: block;
+      height: 62px;
+      width: auto;
+      max-width: 235px;
+    }
+  }
 }
 
 // CV
@@ -485,6 +504,40 @@ footer.sticky-bottom {
     margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: right;
+  }
+}
+
+.people-page {
+  .people-note {
+    margin-top: 1rem;
+    margin-bottom: 1.75rem;
+    padding: 0.85rem 1rem;
+    border-left: 3px solid var(--global-theme-color);
+    background: rgba(0, 0, 0, 0.025);
+    font-size: 0.98rem;
+  }
+
+  h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+}
+
+.workshops-page {
+  h3 {
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    color: var(--global-divider-color);
+    border-top: 1px solid var(--global-divider-color);
+    padding-top: 1rem;
+    text-align: right;
+  }
+
+  h4 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
   }
 }
 

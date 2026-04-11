@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Datasets
+title: Resources
 permalink: /projects/
 description:
 nav: true

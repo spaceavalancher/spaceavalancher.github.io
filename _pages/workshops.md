@@ -7,7 +7,7 @@ nav: true
 nav_order: 7
 ---
 
-
+<div class="workshops-page">
 I co-organize several meetings and workshops at the national and international levels.
 
 
@@ -38,10 +38,11 @@ I co-organize several meetings and workshops at the national and international l
 ### 2023 
 #### Titan Through Time VI (Université Paris Cité)
 - Website: [https://sites.google.com/view/titanthroughtimeparis2023](https://sites.google.com/view/titanthroughtimeparis2023)
-- Program:  [https://sites.google.com/view/titanthroughtimeparis2023](https://pss-gitlab.math.univ-paris-diderot.fr/dralucas/teaching/-/raw/main/Pub/TTTVI_Book.pdf)
+- Program: [https://sites.google.com/view/titanthroughtimeparis2023](https://pss-gitlab.math.univ-paris-diderot.fr/dralucas/teaching/-/raw/main/Pub/TTTVI_Book.pdf)
 
 ---
 ### 2016 
 #### Titan Surface Meeting (Université Paris Diderot)
 
 - Program: [https://pss-gitlab.math.univ-paris-diderot.fr/dralucas/teaching/-/raw/main/Pub/TSMParis2016_program.pdf](https://pss-gitlab.math.univ-paris-diderot.fr/dralucas/teaching/-/raw/main/Pub/TSMParis2016_program.pdf)
+</div>

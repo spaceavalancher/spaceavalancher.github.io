@@ -1,13 +1,13 @@
 ---
 layout: page
 permalink: /people/
-title: Antwan's crew
+title: People
 description:
 nav: true
 nav_order: 3
 ---
 
-
+<div class="people-page">
 I co-supervise PhD students and graduate students at IPGP across a range of research themes, including seismic signal classification, SAR-based and LiDAR monitoring of geomorphic processes, landslides and avalanches, sediment transport dynamics, and the modeling of surface evolution on Earth and other planetary bodies. These projects combine remote sensing, numerical simulations, seismology, and machine learning techniques.
 
 They contribute to tackling complex questions at the intersection of geomorphology, geophysics, remote sensing, and planetary science, with a strong emphasis on:
@@ -18,6 +18,8 @@ They contribute to tackling complex questions at the intersection of geomorpholo
 
 
 This is where applied field science meets computational geoscience and mission-oriented planetary studies. The research is both ambitious and strategic, especially as Earth and planetary processes become increasingly interconnected in modern geoscience.
+
+<p class="people-note">The group includes current PhD students and interns, as well as former postdoctoral researchers, engineers, PhD students, and interns whom I have supervised or co-supervised.</p>
 
 
 ## Current PhD Students
@@ -198,3 +200,4 @@ Analyzed Cassini RADAR data using microwave-domain photogrammetry.
 
 
 <br />
+</div>
