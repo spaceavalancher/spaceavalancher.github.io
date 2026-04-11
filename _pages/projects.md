@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Projects
+title: Datasets
 permalink: /projects/
 description:
 nav: true
-nav_order: 1
-display_categories: [missions, software, community, data]
+nav_order: 4
+display_categories: [datasets, software, teaching]
 horizontal: true
 ---
 <!-- pages/projects.md -->
