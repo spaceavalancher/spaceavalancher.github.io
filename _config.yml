@@ -271,7 +271,7 @@ imagemagick:
     - 480
     - 900
   input_directories:
-    - assets/img/
+    - assets/img/responsive/
   input_formats:
     - ".jpg"
     - ".jpeg"

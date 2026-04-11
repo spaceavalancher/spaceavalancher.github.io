@@ -1,9 +1,13 @@
 {%- assign img_path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" -%}
+{%- assign use_responsive_imagemagick = false -%}
+{%- if include.path contains 'assets/img/responsive/' -%}
+  {%- assign use_responsive_imagemagick = true -%}
+{%- endif -%}
 
 <figure>
 
   <picture>
-    {% if site.imagemagick.enabled %}
+    {% if site.imagemagick.enabled and use_responsive_imagemagick %}
     {% for i in site.imagemagick.widths -%}
       <source 
         class="responsive-img-srcset"
@@ -26,7 +30,7 @@
       {% if include.alt %}alt="{{ include.alt }}"{% endif %} 
       {% if include.title %}title="{{ include.title }}"{% endif %} 
       {% if include.zoomable %}data-zoomable{% endif %}
-      onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
+      {% if use_responsive_imagemagick %}onerror="this.onerror=null; $('.responsive-img-srcset').remove();"{% endif %}
     />
 
   </picture>

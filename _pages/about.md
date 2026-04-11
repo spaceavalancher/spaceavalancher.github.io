@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: Me-web-smaller.jpg
+  image: responsive/Me-web-smaller.jpg
   image_circular: False # crops the image to make it circular
   address:
 
