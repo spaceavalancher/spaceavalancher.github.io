@@ -527,17 +527,26 @@ footer.sticky-bottom {
 
 .workshops-page {
   h3 {
-    margin-top: 2rem;
-    margin-bottom: 0.75rem;
+    margin-top: 1.2rem;
+    margin-bottom: 0.35rem;
     color: var(--global-divider-color);
     border-top: 1px solid var(--global-divider-color);
-    padding-top: 1rem;
+    padding-top: 0.6rem;
     text-align: right;
   }
 
   h4 {
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.25rem;
+  }
+
+  hr {
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+  }
+
+  p, ul {
+    margin-bottom: 0.55rem;
   }
 }
 

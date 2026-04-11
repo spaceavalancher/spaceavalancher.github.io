@@ -10,11 +10,9 @@ nav_order: 7
 <div class="workshops-page" markdown="1">
 I co-organize several meetings and workshops at the national and international levels.
 
-
 ### 2027 
 #### Geosciences Artificial Intelligence Applications (École de physique des Houches)
 - Website: [https://solarsystem.events/event/6/](https://solarsystem.events/event/6/) 
-
 
 ---
 ### 2026 
@@ -22,19 +20,15 @@ I co-organize several meetings and workshops at the national and international l
 - Website and program to be announced. 
 
 ---
-
 ### 2025 
 #### Lunar Seismic and Earth LIFs Networks (Université Paris Cité)
 - Website: [https://sites.google.com/view/lunarselifnetworksparis2025/](https://sites.google.com/view/lunarselifnetworksparis2025/)
 - Program: [https://pss-gitlab.math.univ-paris-diderot.fr/dralucas/teaching/-/raw/main/Pub/Abstract-booklet_V3.pdf](https://pss-gitlab.math.univ-paris-diderot.fr/dralucas/teaching/-/raw/main/Pub/Abstract-booklet_V3.pdf)
 
-
-
 #### Planetary & Space Sciences Lab Retreat (CAES CNRS Aussois)
 - Program: [https://pss-gitlab.math.univ-paris-diderot.fr/dralucas/teaching/-/raw/main/Pub/Aussois_booklet.pdf](https://pss-gitlab.math.univ-paris-diderot.fr/dralucas/teaching/-/raw/main/Pub/Aussois_booklet.pdf)
 
 ---
-
 ### 2023 
 #### Titan Through Time VI (Université Paris Cité)
 - Website: [https://sites.google.com/view/titanthroughtimeparis2023](https://sites.google.com/view/titanthroughtimeparis2023)
@@ -43,6 +37,5 @@ I co-organize several meetings and workshops at the national and international l
 ---
 ### 2016 
 #### Titan Surface Meeting (Université Paris Diderot)
-
 - Program: [https://pss-gitlab.math.univ-paris-diderot.fr/dralucas/teaching/-/raw/main/Pub/TSMParis2016_program.pdf](https://pss-gitlab.math.univ-paris-diderot.fr/dralucas/teaching/-/raw/main/Pub/TSMParis2016_program.pdf)
 </div>
