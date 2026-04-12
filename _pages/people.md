@@ -30,6 +30,22 @@ Works on Titan seismology in preparation for NASA’s *Dragonfly* mission (launc
 
 ## Current Interns
 
+**2026 — Noémie Divoux**
+*2nd-year MSc student in Natural Hazards, IPGP*
+Works on InSAR time series of the May 2025 Blatten avalanche.
+
+**2026 — Kean Ruzicska**
+*1st-year MSc student, Sorbonne Université*
+Develops numerical models of rock avalanches to define hazard scenarios and derive constraints for buildings and exposed infrastructure.
+
+**2026 — Fidèle Mochael**
+*3rd-year BSc student in Physics, Université Paris-Est Créteil*
+Studies boulder avalanches on the Moon.
+
+**2026 — Ségal Le Roy**
+*1st-year MSc student, IPGP*
+Works on multiscale roughness of bare soils.
+
 **Milan Mauro**
 *2nd year MSc in Computer Science, Université Savoie Mont Blanc*  
 Analyzes NASA’s InSight seismic data using scattering networks to classify seismic events recorded throughout the Martian mission.
