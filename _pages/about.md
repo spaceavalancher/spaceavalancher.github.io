@@ -26,6 +26,7 @@ My research focuses on understanding the evolution of surface and near-surface e
 
 I am part of the <a href="https://coop.planetary-research.org/board-of-directors/">board of directors</a> of <a href="https://coop.planetary-research.org/">Planetary Research Cooperative</a>, which supports the dissemination of scientific research in planetary science, in particular community-led diamond open access journal <a href="https://planetary-research.org/">Planetary Research</a>.
 
+I am also the Principal Investigator of the <a href="https://phygrav.ipgp.fr/">PHYGRAV Platform</a>, which develops models, surrogate tools, and decision-ready products for hydro-gravitational hazards (landslides, avalanches, tsunamis, and hydro-sedimentary events).
 
 
 Alongside my scientific activities, I have also been in charge of the <a href="https://master-rn2m.ipgp.fr" target="_blank">Natural Hazard master program</a> at IPGP/Université Paris Cité since 2023.
