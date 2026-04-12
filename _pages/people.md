@@ -80,7 +80,7 @@ Matthieu now holds a permanent position at GeoAzur, after a period working in th
 
 ## Past PhD Students
 
-**Defended November 2025 — Yassine Boukhari**
+**Defended 2025 — Yassine Boukhari**
 *PhD student (80 % supervision, co-supervised with S. Jacquemoud)*
 Studied solid transport in small Alpine and tropical catchments using satellite imagery, LiDAR, long-term observatory records, and machine learning.
 
