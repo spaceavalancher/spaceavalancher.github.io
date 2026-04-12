@@ -88,7 +88,7 @@ This page gathers research datasets, scientific software, teaching resources, an
 </div>
 
 <section id="videos" class="resource-videos">
-  <h2 class="category">Videos</h2>
+  <h2 class="category resource-videos-title">Videos</h2>
 
   <div class="video-entry">
     <h3 id="avalanche-de-debris-responsable-dun-tsunami-dans-un-fjord-au-groenland">Avalanche de débris responsable d&#39;un tsunami dans un Fjord au Groenland</h3>

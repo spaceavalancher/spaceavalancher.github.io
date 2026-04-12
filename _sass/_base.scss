@@ -146,6 +146,15 @@ blockquote {
 .resource-videos {
   margin-top: 2.5rem;
 
+  .resource-videos-title {
+    color: var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: right;
+  }
+
   .video-entry {
     margin-bottom: 2rem;
   }
