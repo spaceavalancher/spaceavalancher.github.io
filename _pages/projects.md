@@ -5,12 +5,12 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 4
-display_categories: [datasets, software, teaching]
+display_categories: [datasets, software, teaching, videos]
 horizontal: true
 compact_cards: true
 ---
 <!-- pages/projects.md -->
-This page gathers research datasets, scientific software, and teaching resources associated with my work. Each entry points to a primary repository or archive record, with previews stored locally on this site for long-term stability.
+This page gathers research datasets, scientific software, teaching resources, and videos associated with my work. Each entry points to a primary repository or archive record, with previews stored locally on this site for long-term stability.
 
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
