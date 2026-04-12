@@ -6,4 +6,5 @@ img: assets/img/publication_preview/titanriv.png
 redirect: https://www.youtube.com/watch?v=5IJql3HQj7w&t=393s
 importance: 3
 category: videos
+published: true
 ---

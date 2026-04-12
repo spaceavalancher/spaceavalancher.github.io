@@ -6,4 +6,5 @@ img: assets/img/publication_preview/svennevig.png
 redirect: https://www.youtube.com/watch?v=POq5UPN2kmY
 importance: 1
 category: videos
+published: true
 ---

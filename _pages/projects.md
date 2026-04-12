@@ -12,13 +12,38 @@ compact_cards: true
 <!-- pages/projects.md -->
 This page gathers research datasets, scientific software, teaching resources, and videos associated with my work. Each entry points to a primary repository or archive record, with previews stored locally on this site for long-term stability.
 
+{%- assign category_titles = "datasets:Datasets|software:Software|teaching:Teaching|videos:Videos" | split: "|" -%}
+
+<nav class="resources-jump-menu">
+  <p><strong>Jump to:</strong>
+  {%- for category in page.display_categories -%}
+    {%- assign label = category -%}
+    {%- for entry in category_titles -%}
+      {%- assign parts = entry | split: ":" -%}
+      {%- if parts[0] == category -%}
+        {%- assign label = parts[1] -%}
+      {%- endif -%}
+    {%- endfor -%}
+    <a href="#{{ category }}">{{ label }}</a>{% unless forloop.last %} · {% endunless %}
+  {%- endfor -%}
+  </p>
+</nav>
+
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
+  {%- assign category_title = category -%}
+  {%- for entry in category_titles -%}
+    {%- assign parts = entry | split: ":" -%}
+    {%- if parts[0] == category -%}
+      {%- assign category_title = parts[1] -%}
+    {%- endif -%}
+  {%- endfor -%}
   {%- assign categorized_projects = site.projects | where: "category", category -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
+  <section id="{{ category }}" class="resource-section">
+  <h2 class="category">{{ category_title }}</h2>
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
@@ -35,6 +60,7 @@ This page gathers research datasets, scientific software, teaching resources, an
     {%- endfor %}
   </div>
   {%- endif -%}
+  </section>
   {% endfor %}
 
 {%- else -%}
