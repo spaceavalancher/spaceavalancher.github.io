@@ -12,20 +12,21 @@ compact_cards: true
 <!-- pages/projects.md -->
 This page gathers research datasets, scientific software, teaching resources, and videos associated with my work. Each entry points to a primary repository or archive record, with previews stored locally on this site for long-term stability.
 
-{%- assign category_titles = "datasets:Datasets|software:Software|teaching:Teaching|videos:Videos" | split: "|" -%}
+{% assign category_titles = "datasets:Datasets|software:Software|teaching:Teaching|videos:Videos" | split: "|" %}
 
 <nav class="resources-jump-menu">
-  <p><strong>Jump to:</strong>
-  {%- for category in page.display_categories -%}
-    {%- assign label = category -%}
-    {%- for entry in category_titles -%}
-      {%- assign parts = entry | split: ":" -%}
-      {%- if parts[0] == category -%}
-        {%- assign label = parts[1] -%}
-      {%- endif -%}
-    {%- endfor -%}
+  <p>
+    Browse the collection by section:
+  {% for category in page.display_categories %}
+    {% assign label = category %}
+    {% for entry in category_titles %}
+      {% assign parts = entry | split: ":" %}
+      {% if parts[0] == category %}
+        {% assign label = parts[1] %}
+      {% endif %}
+    {% endfor %}
     <a href="#{{ category }}">{{ label }}</a>{% unless forloop.last %} · {% endunless %}
-  {%- endfor -%}
+  {% endfor %}
   </p>
 </nav>
 
@@ -33,13 +34,13 @@ This page gathers research datasets, scientific software, teaching resources, an
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
-  {%- assign category_title = category -%}
-  {%- for entry in category_titles -%}
-    {%- assign parts = entry | split: ":" -%}
-    {%- if parts[0] == category -%}
-      {%- assign category_title = parts[1] -%}
-    {%- endif -%}
-  {%- endfor -%}
+  {% assign category_title = category %}
+  {% for entry in category_titles %}
+    {% assign parts = entry | split: ":" %}
+    {% if parts[0] == category %}
+      {% assign category_title = parts[1] %}
+    {% endif %}
+  {% endfor %}
   {%- assign categorized_projects = site.projects | where: "category", category -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <section id="{{ category }}" class="resource-section">

@@ -128,6 +128,21 @@ blockquote {
   }
 }
 
+.resources-jump-menu {
+  margin-bottom: 1.75rem;
+  font-size: 0.95rem;
+  color: var(--global-text-color-light);
+
+  p {
+    margin-bottom: 0;
+  }
+
+  a {
+    margin-left: 0.35rem;
+    color: var(--global-text-color);
+  }
+}
+
 
 // Navbar customization
 
