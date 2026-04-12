@@ -19,7 +19,7 @@ They contribute to tackling complex questions at the intersection of geomorpholo
 
 This is where applied field science meets computational geoscience and mission-oriented planetary studies. The research is both ambitious and strategic, especially as Earth and planetary processes become increasingly interconnected in modern geoscience.
 
-<p class="people-note">The group includes current PhD students and interns, as well as former postdoctoral researchers, engineers, PhD students, and interns whom I have supervised or co-supervised.</p>
+<p class="people-note">The group includes current PhD students and interns, as well as former postdoctoral researchers, engineers, and students whom I have supervised or co-supervised.</p>
 
 
 ## Current PhD Students
