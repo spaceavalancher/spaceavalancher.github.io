@@ -143,6 +143,32 @@ blockquote {
   }
 }
 
+.resource-videos {
+  margin-top: 2.5rem;
+
+  .video-entry {
+    margin-bottom: 2rem;
+  }
+
+  h3 {
+    color: var(--global-text-color-light);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+  }
+
+  p {
+    margin-bottom: 0.75rem;
+  }
+
+  .video-embed iframe {
+    width: 100%;
+    max-width: 500px;
+    height: 250px;
+    border: 0;
+  }
+}
+
 
 // Navbar customization
 
