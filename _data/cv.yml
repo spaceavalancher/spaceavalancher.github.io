@@ -35,6 +35,9 @@
 - title: Research grants
   type: time_table
   contents:
+    - title: AVALIASIS - Apprentissage multimodal temps réel pour la détection d’avalanches dans les réseaux sismiques
+      institution: GdR 720 IASIS
+      year: 2026-
     - title: AVASEIS-3D - 3D Earth Observation to Decode Avalanche Seismology
       institution: APR CNES
       description: PI
@@ -55,6 +58,5 @@
       institution: INSU PNTS
       year: 2022  
       description: PI
-
 
 

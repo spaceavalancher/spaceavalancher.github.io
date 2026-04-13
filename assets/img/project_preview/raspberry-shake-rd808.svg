@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Raspberry Shake RD808 preview</title>
+  <desc id="desc">Stylized preview card for the Raspberry Shake RD808 monitoring resource.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff7ed" />
+      <stop offset="100%" stop-color="#ffe4c7" />
+    </linearGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d9470f" />
+      <stop offset="100%" stop-color="#8a1c0f" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="32" fill="url(#bg)" />
+  <circle cx="1030" cy="120" r="110" fill="#ffffff" opacity="0.6" />
+  <circle cx="1120" cy="560" r="150" fill="#ffffff" opacity="0.35" />
+  <rect x="70" y="70" width="1060" height="535" rx="26" fill="#fffdf9" stroke="#f0c9a8" stroke-width="4" />
+  <text x="110" y="155" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#7c2d12">Raspberry Shake RD808</text>
+  <text x="110" y="198" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#9a3412">Station sismique locale</text>
+  <rect x="110" y="245" width="980" height="250" rx="18" fill="#fff3e8" stroke="#f3d0b4" stroke-width="3" />
+  <path d="M140 370 C180 370 190 325 220 325 C250 325 255 430 295 430 C335 430 340 305 382 305 C424 305 430 465 475 465 C520 465 526 340 568 340 C610 340 616 390 656 390 C696 390 705 280 750 280 C795 280 800 425 844 425 C888 425 895 355 935 355 C975 355 982 385 1025 385 C1050 385 1060 360 1060 360" fill="none" stroke="url(#wave)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="140" y1="300" x2="1060" y2="300" stroke="#f5d6c1" stroke-width="2" />
+  <line x1="140" y1="365" x2="1060" y2="365" stroke="#f5d6c1" stroke-width="2" />
+  <line x1="140" y1="430" x2="1060" y2="430" stroke="#f5d6c1" stroke-width="2" />
+  <rect x="110" y="530" width="280" height="42" rx="21" fill="#7c2d12" />
+  <text x="250" y="558" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#fff7ed">Open StationView</text>
+  <text x="820" y="556" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#7c2d12">Preview locale, lien externe pour le live</text>
+</svg>

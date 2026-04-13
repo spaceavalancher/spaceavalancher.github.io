@@ -5,14 +5,14 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 4
-display_categories: [datasets, software, teaching]
+display_categories: [datasets, software, teaching, monitoring]
 horizontal: true
 compact_cards: true
 ---
 <!-- pages/projects.md -->
 This page gathers research datasets, scientific software, teaching resources, and videos associated with my work. Each entry points to a primary repository or archive record, with previews stored locally on this site for long-term stability.
 
-{% assign category_titles = "datasets:Datasets|software:Software|teaching:Teaching|videos:Videos" | split: "|" %}
+{% assign category_titles = "datasets:Datasets|software:Software|teaching:Teaching|monitoring:Monitoring|videos:Videos" | split: "|" %}
 
 <nav class="resources-jump-menu">
   <p>
