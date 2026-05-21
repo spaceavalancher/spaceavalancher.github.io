@@ -19,9 +19,9 @@ nav_order: 2
   {% for y in page.years %}
     <a href="#pub-{{ y | slugify }}">{{ y }}</a>{% unless forloop.last %} · {% endunless %}
   {% endfor %}
-  · <a href="#comments-news-views-perspectives">Comments, News & Views and Perspectives</a>
-  · <a href="#proceedings-chapters-white-papers">Proceedings, chapters and white papers</a>
-  · <a href="#thesis">Thesis</a>
+  <a href="#comments-news-views-perspectives">Comments, News &amp; Views and Perspectives</a>
+   <a href="#proceedings-chapters-white-papers">Proceedings, chapters and white papers</a>
+   <a href="#thesis">Thesis</a>
 </div>
 
 <div class="publications">
@@ -32,8 +32,8 @@ nav_order: 2
 {% endfor %}
 
 </div>
+<h1 id="comments-news-views-perspectives" class="post-title">Comments, News &amp; Views and Perspectives</h1>
 
-<h1 id="comments-news-views-perspectives" class="post-title">Comments, News & Views and Perspectives</h1>
 
 <div class="publications">
   {% bibliography -f comments %}
