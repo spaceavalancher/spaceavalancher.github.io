@@ -14,7 +14,7 @@ nav_order: 2
 * **ResearcherID:** [A-9752-2009](https://www.webofscience.com/wos/author/rid/A-9752-2009)
 * **Google Scholar:** [8kg1qzsAAAAJ](https://scholar.google.com/citations?user=8kg1qzsAAAAJ)
 * **HAL (open archive):** [dralucas](https://cv.archives-ouvertes.fr/dralucas)
-
+<!--
 <div class="pub-links">
   <strong>Jump to:</strong>
   {% for y in page.years %}
@@ -24,7 +24,7 @@ nav_order: 2
   · <a href="#proceedings-chapters-white-papers">Proceedings, chapters and white papers</a>
   · <a href="#thesis">Thesis</a>
 </div>
-
+-->
 <div class="publications">
 
 {%- for y in page.years %}
@@ -35,11 +35,11 @@ nav_order: 2
 </div>
 
 <h1 id="comments-news-views-perspectives" class="post-title">Comments, News &amp; Views and Perspectives</h1>
-
+<!--
 <div class="publications">
   {% bibliography -f comments %}
 </div>
-
+-->
 <h1 id="proceedings-chapters-white-papers" class="post-title">Proceedings, chapters and white papers</h1>
 
 <div class="publications">
