@@ -8,28 +8,45 @@ nav: true
 nav_order: 2
 ---
 <!-- _pages/publications.md -->
+
 * **Orcid ID:** [0000-0003-2192-4416](https://orcid.org/0000-0003-2192-4416)
 * **ResearcherID:** [A-9752-2009](https://www.webofscience.com/wos/author/rid/A-9752-2009)
 * **Google Scholar:** [8kg1qzsAAAAJ](https://scholar.google.com/citations?user=8kg1qzsAAAAJ)
 * **HAL (open archive):** [dralucas](https://cv.archives-ouvertes.fr/dralucas)
 
+<div class="pub-links">
+  <strong>Jump to:</strong>
+  {% for y in page.years %}
+    <a href="#pub-{{ y | slugify }}">{{ y }}</a>{% unless forloop.last %} · {% endunless %}
+  {% endfor %}
+  · <a href="#comments-news-views-perspectives">Comments, News & Views and Perspectives</a>
+  · <a href="#proceedings-chapters-white-papers">Proceedings, chapters and white papers</a>
+  · <a href="#thesis">Thesis</a>
+</div>
+
 <div class="publications">
 
 {%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
+  <h2 id="pub-{{ y | slugify }}" class="year">{{ y }}</h2>
+  {% bibliography -f papers -q @*[year={{ y }}]* %}
 {% endfor %}
+
 </div>
 
-<br>
-<h1 class="post-title">Other publications</h1>
+<h1 id="comments-news-views-perspectives" class="post-title">Comments, News & Views and Perspectives</h1>
+
+<div class="publications">
+  {% bibliography -f comments %}
+</div>
+
+<h1 id="proceedings-chapters-white-papers" class="post-title">Proceedings, chapters and white papers</h1>
 
 <div class="publications">
   {% bibliography -f others %}
 </div>
 
-<h1 class="post-title">Thesis</h1>
+<h1 id="thesis" class="post-title">Thesis</h1>
 
 <div class="publications">
-  {% bibliography -f thesis  --template thesis %}
+  {% bibliography -f thesis --template thesis %}
 </div>
