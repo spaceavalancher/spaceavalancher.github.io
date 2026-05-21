@@ -7,6 +7,7 @@ years: [in review, 2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2
 nav: true
 nav_order: 2
 ---
+
 <!-- _pages/publications.md -->
 
 * **Orcid ID:** [0000-0003-2192-4416](https://orcid.org/0000-0003-2192-4416)
@@ -19,21 +20,21 @@ nav_order: 2
   {% for y in page.years %}
     <a href="#pub-{{ y | slugify }}">{{ y }}</a>{% unless forloop.last %} · {% endunless %}
   {% endfor %}
-  <a href="#comments-news-views-perspectives">Comments, News &amp; Views and Perspectives</a>
-   <a href="#proceedings-chapters-white-papers">Proceedings, chapters and white papers</a>
-   <a href="#thesis">Thesis</a>
+  · <a href="#comments-news-views-perspectives">Comments, News &amp; Views and Perspectives</a>
+  · <a href="#proceedings-chapters-white-papers">Proceedings, chapters and white papers</a>
+  · <a href="#thesis">Thesis</a>
 </div>
 
 <div class="publications">
 
 {%- for y in page.years %}
   <h2 id="pub-{{ y | slugify }}" class="year">{{ y }}</h2>
-  {% bibliography -f papers -q @*[year={{ y }}]* %}
+  {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
-<h1 id="comments-news-views-perspectives" class="post-title">Comments, News &amp; Views and Perspectives</h1>
 
+<h1 id="comments-news-views-perspectives" class="post-title">Comments, News &amp; Views and Perspectives</h1>
 
 <div class="publications">
   {% bibliography -f comments %}
