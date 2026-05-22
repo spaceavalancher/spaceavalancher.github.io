@@ -14,14 +14,12 @@ nav_order: 2
 * **ResearcherID:** [A-9752-2009](https://www.webofscience.com/wos/author/rid/A-9752-2009)
 * **Google Scholar:** [8kg1qzsAAAAJ](https://scholar.google.com/citations?user=8kg1qzsAAAAJ)
 * **HAL (open archive):** [dralucas](https://cv.archives-ouvertes.fr/dralucas)
-  
+
+
+
 <div class="pub-links">
   <strong>Jump to:</strong>
-  {% for y in page.years %}
-    {% assign y_string = y | append: "" %}
-    {% assign y_id = y_string | replace: " ", "-" %}
-    <a href="#pub-{{ y_id }}">{{ y }}</a>{% unless forloop.last %} · {% endunless %}
-  {% endfor %}
+  <a href="#articles">Articles</a>
   · <a href="#comments-news-views-perspectives">Comments, News &amp; Views and Perspectives</a>
   · <a href="#proceedings-chapters-white-papers">Proceedings, chapters and white papers</a>
   · <a href="#thesis">Thesis</a>
@@ -29,14 +27,18 @@ nav_order: 2
 
 <div class="publications">
 
+<h2 id="articles">Articles</h2>
+
 {%- for y in page.years %}
   {% assign y_string = y | append: "" %}
   {% assign y_id = y_string | replace: " ", "-" %}
-  <h2 id="pub-{{ y_id }}" class="year">{{ y }}</h2>
+  <h3 id="pub-{{ y_id }}" class="year">{{ y }}</h3>
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
+
+
 
 <h1 id="comments-news-views-perspectives" class="post-title">Comments, News &amp; Views and Perspectives</h1>
 
