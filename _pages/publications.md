@@ -16,7 +16,6 @@ nav_order: 2
 * **HAL (open archive):** [dralucas](https://cv.archives-ouvertes.fr/dralucas)
 
 
-
 <div class="pub-links">
   <strong>Jump to:</strong>
   <a href="#articles">Articles</a>
@@ -32,12 +31,11 @@ nav_order: 2
 {%- for y in page.years %}
   {% assign y_string = y | append: "" %}
   {% assign y_id = y_string | replace: " ", "-" %}
-  <h3 id="pub-{{ y_id }}" class="year">{{ y }}</h3>
+  <h2 id="pub-{{ y_id }}" class="year">{{ y }}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
-
 
 
 <h1 id="comments-news-views-perspectives" class="post-title">Comments, News &amp; Views and Perspectives</h1>
