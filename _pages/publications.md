@@ -19,7 +19,7 @@ nav_order: 2
 <div class="pub-links">
   <strong>Jump to:</strong>
   <a href="#articles">Articles</a>
-  · <a href="#comments-news-views-perspectives">Comments, News &amp; Views and Perspectives</a>
+  · <a href="#comments-news-views-perspectives">News &amp; Views and Perspectives</a>
   · <a href="#proceedings-chapters-white-papers">Proceedings, chapters and white papers</a>
   · <a href="#thesis">Thesis</a>
 </div>
@@ -37,14 +37,13 @@ nav_order: 2
 
 </div>
 
-
-<h1 id="comments-news-views-perspectives" class="post-title">Comments, News &amp; Views and Perspectives</h1>
+<h1 id="comments-news-views-perspectives" class="post-title">News &amp; Views and Perspectives</h1>
 
 <div class="publications">
   {% bibliography -f comments %}
 </div>
 
-<h1 id="proceedings-chapters-white-papers" class="post-title">Proceedings, chapters and white papers</h1>
+<h1 id="proceedings-chapters-white-papers" class="post-title">peer-reviewed Proceedings, chapters and white papers</h1>
 
 <div class="publications">
   {% bibliography -f others %}
