@@ -32,6 +32,23 @@
       description: Advisor, Anne Mangney (IPGP), Co-Advisor, Daniel Mege (LPGN)
       year: 2010 
 
+
+- title: Space mission involvement
+  type: time_table
+  contents:
+    - title: EnVision — EuroSAR Science Team
+      institution: European Space Agency, ESA
+      year: 2026 -
+
+    - title: InSight
+      institution: NASA Mars geophysical mission
+      year: 2016 - 2022
+
+    - title: Cassini RADAR
+      institution: NASA/ESA/ASI Cassini-Huygens mission
+      year: 2010 - 2017
+
+
 - title: Research grants
   type: time_table
   contents:
