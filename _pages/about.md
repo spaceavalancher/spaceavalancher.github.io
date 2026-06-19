@@ -22,11 +22,17 @@ social: true  # includes social icons at the bottom of the page
 <br />
 
 ### About me ###
-My research focuses on understanding the evolution of surface and near-surface environments on Earth and other planetary bodies, including lakes on Titan, landslides on Mars and icy satellites, and aeolian transport on Mars, Venus, and Titan. Other planets allow us to test our understanding of geological and climate processes under a wide range of conditions. By combining observations from planetary exploration missions with image processing and numerical modeling, I investigate what controls the evolution of continental surfaces, including their planetary counterparts, and more specifically mass wasting (landslides, avalanches, debris flows), aeolian processes, and hydrology. A geomorphologist by objects of study, a geophysicist by methods, and a planetary scientist by perspective, I define myself as a space hacker, an astro-geologist, a landscape analyst, and a space avalancher.
+My research focuses on surface and near-surface processes such as landslides, avalanches, debris flows, dunes, rivers, lakes, and sediment transport. I use planetary bodies as natural laboratories: Mars, Titan, Venus, the Moon, and icy satellites allow us to test how gravity, atmosphere, climate, volatiles, and surface materials control landscape dynamics beyond the conditions found on Earth.
 
-I am part of the <a href="https://coop.planetary-research.org/board-of-directors/">board of directors</a> of <a href="https://coop.planetary-research.org/">Planetary Research Cooperative</a>, which supports the dissemination of scientific research in planetary science, in particular community-led diamond open access journal <a href="https://planetary-research.org/">Planetary Research</a>.
+To address these questions, I combine planetary mission data, remote sensing, image processing, numerical modeling, geophysics, and machine learning. My work sits at the crossroads of geomorphology, planetary science, and natural hazards, with a particular focus on mass wasting, aeolian transport, hydrology, and hydro-gravitational risks.
 
-I am also the Principal Investigator of the <a href="https://phygrav.ipgp.fr/">PHYGRAV Platform</a>, which develops models, surrogate tools, and decision-ready products for hydro-gravitational hazards (landslides, avalanches, tsunamis, and hydro-sedimentary events).
+A geomorphologist by objects of study, a geophysicist by methods, and a planetary scientist by perspective, I define myself as a space hacker, an astro-geologist, a landscape analyst, and a space avalancher.
 
+I am an appointed member of the EuroSAR Science Team for <a href="https://www.esa.int/Science_Exploration/Space_Science/Envision">ESA’s EnVision mission</a> to Venus, contributing to the preparation of radar-based investigations of planetary surfaces and their geological evolution.
 
-Alongside my scientific activities, I have also been in charge of the <a href="https://master-rn2m.ipgp.fr" target="_blank">Natural Hazard master program</a> at IPGP/Université Paris Cité since 2023.
+I also serve on the <a href="https://coop.planetary-research.org/board-of-directors/">board of directors</a> of the <a href="https://coop.planetary-research.org/">Planetary Research Cooperative</a>, which supports open and community-led publishing in planetary science, including the diamond open-access journal  <a href="https://planetary-research.org/">Planetary Research</a>.
+
+I am the Principal Investigator of the <a href="https://phygrav.ipgp.fr/">PHYGRAV Platform</a>, which develops physics-based models, surrogate tools, and decision-ready products for landslides, avalanches, tsunamis, and hydro-sedimentary hazards.
+
+Since 2023, I have also been in charge of the <a href="https://master-rn2m.ipgp.fr" target="_blank">Natural Hazards Master’s program</a> at IPGP / Université Paris Cité.
+
