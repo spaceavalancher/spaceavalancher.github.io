@@ -543,6 +543,38 @@ footer.sticky-bottom {
     }
   }
 
+  .project-links {
+    gap: 0.45rem;
+    align-items: center;
+    margin-top: 0.6rem;
+
+    .project-link-icon {
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .icon a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--global-theme-color);
+      text-decoration: none;
+      line-height: 1;
+    }
+
+    .gh-icon {
+      font-size: 1.15rem;
+    }
+
+    .zenodo-badge {
+      padding: 0.12rem 0.42rem;
+      border: 1px solid var(--global-theme-color);
+      border-radius: 999px;
+      font-size: 0.72rem;
+      font-weight: 500;
+    }
+  }
+
   .grid-sizer, .grid-item {
     width: 250px;
     margin-bottom: 10px;
