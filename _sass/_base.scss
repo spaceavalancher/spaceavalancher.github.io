@@ -517,7 +517,7 @@ footer.sticky-bottom {
       align-items: stretch;
     }
 
-    .card-img {
+    .project-card-media {
       padding: 0.9rem;
       display: flex;
       align-items: center;
@@ -563,8 +563,15 @@ footer.sticky-bottom {
 
   @media (min-width: 768px) {
     .project-card-compact {
-      .card-img {
+      .project-card-media {
         min-height: 220px;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+      }
+
+      > .row.g-0 > .col-md-8 {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
       }
 
       img {
