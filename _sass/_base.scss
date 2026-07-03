@@ -548,6 +548,10 @@ footer.sticky-bottom {
       justify-content: center;
     }
 
+    .project-card-content {
+      min-width: 0;
+    }
+
     .card-title {
       margin-bottom: 0.45rem;
       font-size: 1.2rem;
@@ -563,15 +567,22 @@ footer.sticky-bottom {
 
   @media (min-width: 768px) {
     .project-card-compact {
+      .row.g-0 {
+        display: flex;
+        flex-wrap: nowrap;
+      }
+
       .project-card-media {
         min-height: 220px;
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
       }
 
-      > .row.g-0 > .col-md-8 {
+      .project-card-content {
         flex: 0 0 66.666667%;
         max-width: 66.666667%;
+        display: flex;
+        align-items: center;
       }
 
       img {

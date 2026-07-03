@@ -10,9 +10,9 @@
         <div class="project-card-media {% if page.compact_cards %}col-md-4{% else %}col-md-6{% endif %}">
           {% include figure.html path=project.img alt="project thumbnail" %}
         </div>
-        <div class="{% if page.compact_cards %}col-md-8{% else %}col-md-6{% endif %}">
+        <div class="project-card-content {% if page.compact_cards %}col-md-8{% else %}col-md-6{% endif %}">
         {%- else -%}
-        <div class="col-md-12">
+        <div class="project-card-content col-md-12">
         {%- endif -%}
           <div class="card-body">
             <h3 class="card-title">{{ project.title }}</h3>
