@@ -521,21 +521,27 @@ footer.sticky-bottom {
       padding: 0.9rem;
       display: flex;
       align-items: center;
+      justify-content: stretch;
       min-height: 180px;
+      overflow: hidden;
 
       figure,
       picture {
         display: block;
         width: 100%;
+        height: 100%;
         margin: 0;
       }
 
       img {
         display: block;
-        width: 100%;
-        height: 180px;
-        margin: 0 auto;
+        width: 100% !important;
+        min-width: 100%;
+        max-width: none;
+        height: 180px !important;
+        margin: 0;
         object-fit: cover;
+        object-position: center;
         border-radius: 0.35rem;
       }
     }
@@ -586,7 +592,7 @@ footer.sticky-bottom {
       }
 
       img {
-        height: 220px;
+        height: 220px !important;
       }
     }
   }
