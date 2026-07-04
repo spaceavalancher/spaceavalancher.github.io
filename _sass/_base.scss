@@ -488,11 +488,11 @@ footer.sticky-bottom {
 .projects {
   a {
     text-decoration: none;
+  }
 
-    &:hover {
-      .card-title {
-        color: var(--global-theme-color);
-      }
+  .card:hover {
+    .card-title {
+      color: var(--global-theme-color);
     }
   }
 
@@ -519,9 +519,6 @@ footer.sticky-bottom {
 
     .project-card-media {
       padding: 0.9rem;
-      display: flex;
-      align-items: center;
-      justify-content: stretch;
       min-height: 180px;
       overflow: hidden;
 
@@ -530,6 +527,7 @@ footer.sticky-bottom {
         display: block;
         width: 100%;
         height: 100%;
+        max-width: none;
         margin: 0;
       }
 
@@ -552,6 +550,7 @@ footer.sticky-bottom {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      position: relative;
     }
 
     .project-card-content {
@@ -601,6 +600,8 @@ footer.sticky-bottom {
     gap: 0.45rem;
     align-items: center;
     margin-top: 0.6rem;
+    position: relative;
+    z-index: 2;
 
     .project-link-icon {
       display: inline-flex;
