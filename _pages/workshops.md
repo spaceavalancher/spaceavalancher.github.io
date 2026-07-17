@@ -16,9 +16,9 @@ I co-organize several meetings and workshops at the national and international l
 
 ---
 ### 2026 
-#### Space Science & Geodesy Lab Retreat (Location to be determined)
-- Website and program to be announced. 
-
+#### Atelier segment sol VeraSAR/EnVision
+- Website: https://solarsystem.events/e/RadioAltiFrance2026
+- 
 ---
 ### 2025 
 #### Lunar Seismic and Earth LIFs Networks (Université Paris Cité)
