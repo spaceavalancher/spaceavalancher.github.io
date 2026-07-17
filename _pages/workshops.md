@@ -18,7 +18,7 @@ I co-organize several meetings and workshops at the national and international l
 ### 2026 
 #### Atelier segment sol VeraSAR/EnVision
 - Website: https://solarsystem.events/e/RadioAltiFrance2026
-- 
+  
 ---
 ### 2025 
 #### Lunar Seismic and Earth LIFs Networks (Université Paris Cité)
