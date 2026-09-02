@@ -1,0 +1,177 @@
+current_supervision:
+  - name: Lorraine Delaroque
+    status: Current
+    status_class: current
+    period: Since 2024
+    role: PhD student, 30% supervision
+    topic: Titan seismology and seismic attenuation in planetary ice shells, in preparation for NASA's Dragonfly mission.
+    cosupervision: S. Rodriguez and T. Kawamura
+  - name: Milan Mauro
+    status: Incoming
+    status_class: incoming
+    period: Starting October 2026
+    role: PhD student, 80% supervision
+    topic: Lunar environmental seismology and scientific preparation for NASA's Farside Seismic Suite.
+
+recent_projects:
+  - name: Noémie Divoux
+    level: 2nd-year MSc, Natural Hazards
+    institution: IPGP
+    topic: InSAR time-series analysis of the May 2025 Blatten rock avalanche.
+  - name: Kean Ruzicska
+    level: 1st-year MSc
+    institution: Sorbonne Université
+    topic: Numerical modeling of rock avalanches for hazard scenarios and constraints on exposed infrastructure.
+  - name: Fidèle Mochael
+    level: 3rd-year BSc, Physics
+    institution: Université Paris-Est Créteil
+    topic: Detection and analysis of boulder avalanches on the Moon.
+  - name: Ségal Le Roy
+    level: 1st-year MSc
+    institution: IPGP
+    topic: Multiscale characterization of bare-soil roughness.
+
+phd_alumni:
+  - name: Yassine Boukhari
+    year: 2025
+    topic: Sediment transport in small Alpine and tropical catchments using satellite imagery, LiDAR, observatory records, and machine learning.
+    supervision: 80%; with S. Jacquemoud
+  - name: Coline Hopquin
+    year: 2025
+    topic: Slow hillslope dynamics at Grand Éboulis on Réunion Island.
+    supervision: 30%; with E. Gayer and L. Michon
+  - name: Dung Tri Nguyen
+    year: 2024
+    topic: Bayesian inversion of bidirectional reflectance data for bare-surface roughness retrieval.
+    supervision: 50%; with S. Jacquemoud
+  - name: Alice Jacob
+    year: 2022
+    topic: Seismotectonics and planetary photogrammetry for NASA's InSight mission.
+    supervision: 25%; with P. Lognonné and C. Perrin
+  - name: Amande Roque-Bernard
+    year: 2022
+    topic: Suspended-sediment transport in Guadeloupe from field observations and remote sensing.
+    supervision: 60%; with E. Lajeunesse
+  - name: Chloé Daudon
+    year: 2020
+    topic: Titan fluvial geomorphology and topographic reconstruction of the Huygens landing site.
+    supervision: 30%; with S. Rodriguez and S. Jacquemoud
+
+former_team:
+  - name: Léa Bonnefoy
+    period: 2020–2022
+    role: Postdoctoral researcher, 50% supervision
+    topic: Dielectric properties and surface characterization of the Dragonfly landing region on Titan.
+  - name: Shen Liang
+    period: 2021
+    role: Postdoctoral researcher, 100% supervision
+    topic: PARKKER project and development of the FARMYARD machine-learning framework.
+  - name: Matthieu Gougeon
+    period: 2021–2022
+    role: Research engineer, 100% supervision
+    topic: Image-analysis and quality-control tools for airborne, drone, and satellite remote-sensing data.
+
+student_archive:
+  - name: Grégoire Vest
+    level: Final-year engineering student
+    institution: EPITA
+    topic: Physics-informed neural networks for SAR surface-property inversion and avalanche detection.
+  - name: Marceau Cottrez
+    level: Final-year engineering student
+    institution: EPITA
+    topic: Machine learning applied to 3D LiDAR point clouds for vegetation structure and biomass estimation.
+  - name: Valentine Hoscoet
+    level: 1st-year MSc, Natural Hazards
+    institution: IPGP
+    topic: Scattering-network classification of seismic signals from debris, rock, and snow avalanches.
+  - name: Thibault Chardon
+    level: 1st-year MSc, Natural Hazards
+    institution: IPGP
+    topic: Machine-learning detection of snow avalanches in medium-resolution SAR imagery.
+  - name: Lisa Corzani
+    level: 1st-year MSc, Planetary Sciences
+    institution: PSL
+    topic: Mapping rockfalls near the Farside Seismic Suite landing site on the Moon.
+  - name: Marta Ducamp
+    level: 2nd-year engineering student, Geomatics and Photogrammetry
+    institution: ENSG-IGN
+    topic: Multiscale lunar-surface roughness from Apollo imagery.
+  - name: Mathilde Ballot
+    level: 3rd-year undergraduate, Geophysics
+    institution: Sciences Po–IPGP
+    topic: Modeling snow-avalanche backscattering in Sentinel-1 SAR data.
+  - name: Matthieu Lecocq
+    level: 1st-year MSc, Geophysics
+    institution: IPGP
+    topic: Detection of dust avalanches on Mars using orbital imagery.
+  - name: Mathilde Griffaton
+    level: 3rd-year BSc
+    institution: Université Paris-Saclay
+    topic: Development and testing of prototype turbidity sensors for field applications.
+  - name: Lounis Ait Oufella
+    level: 1st-year MSc
+    institution: Sorbonne Université
+    topic: Energy dissipation in landslides across the Solar System.
+  - name: Yassine Boukhari
+    level: 2nd-year MSc
+    institution: Sorbonne Université
+    topic: Snow-avalanche backscattering in Sentinel-1 SAR data.
+  - name: Manon Le Teuff
+    level: 1st-year BSc
+    institution: PSL
+    topic: Post-seismic decay of dust-avalanche activity on Mars.
+  - name: Justine Vilette
+    level: 2nd-year MSc
+    institution: Sorbonne Université
+    topic: Physics-based machine learning for topographic retrieval from radar backscattering.
+  - name: Adama Bah
+    level: 1st-year MSc
+    institution: IPGP
+    topic: Convolutional-neural-network detection of dust avalanches on Mars.
+  - name: Alexandra Le Contellec
+    level: Undergraduate internship
+    institution: Four-month project
+    topic: Photogrammetric analysis of imagery of the Jovian satellites.
+  - name: Lucas Bourdon
+    level: 1st-year MSc
+    institution: Université de Paris and IPGP
+    topic: Detectability of slope-instability seismic signals in InSight data.
+  - name: Julie Losen
+    level: 2nd-year MSc
+    institution: Université de Paris and IPGP
+    topic: Earth–Mars comparison of landslides and molard formation under permafrost degradation.
+  - name: Ayah Taihi
+    level: 1st-year MSc, Physics
+    topic: Light scattering in water–mineral particulate mixtures.
+  - name: Sahand Sharifi
+    level: 2nd-year MSc
+    institution: Université de Paris and IPGP
+    topic: Microwave backscattering of avalanches and estimation of surface roughness.
+  - name: Tuyen Nguyen
+    level: 2nd-year MSc
+    institution: Université de Paris and IPGP
+    topic: Evolution of fluvial sediment transport from radar interferometry.
+  - name: Thomas Frasson
+    level: 1st-year MSc
+    institution: ENS Lyon
+    topic: Parameterization of friction laws in numerical models of gravitational processes.
+  - name: Bastien Gonzalez
+    level: 1st-year MSc
+    institution: Sorbonne Université
+    topic: Twentieth-century evolution of the Bossons Glacier from aerial photogrammetry.
+  - name: Valérie Genoud-Prachet
+    level: 2nd-year MSc
+    institution: Université Paris-Diderot
+    topic: Satellite monitoring of surface-state evolution in high-erosion tropical regions on Réunion Island.
+  - name: Alice Jacob
+    level: 2nd-year MSc
+    institution: Université Paris-Diderot
+    topic: Seismotectonics and planetary photogrammetry in preparation for InSight.
+  - name: Ivan Osorio
+    level: 1st-year MSc
+    institution: Sorbonne Université
+    topic: Numerical modeling of Titan's landscape dynamics.
+  - name: Amande Roque-Bernard
+    level: 2nd-year MSc
+    institution: Université Paris-Diderot
+    topic: Microwave-domain photogrammetry using Cassini RADAR data.
