@@ -1,79 +1,131 @@
-- title: Affiliation
-  type: list
+- title: Current appointment
+  type: map
   contents:
-    - Université Paris Cité, Institut de Physique du Globe de Paris, CNRS, F-75005 Paris, France
-- title: Professional Positions
+    - name: Position
+      value: CNRS Research Scientist (Chargé de recherche), HDR
+    - name: Institution
+      value: Institut de Physique du Globe de Paris, Université Paris Cité, CNRS
+    - name: Research groups
+      value: <a href="https://www.ipgp.fr/en/research/teams/planetology-and-space-sciences/">Planetary and Space Sciences</a> and <a href="https://www.ipgp.fr/en/research/teams/external-envelopes-geochemistry/">External Envelopes Geochemistry</a>
+    - name: ORCID
+      value: <a href="https://orcid.org/0000-0003-2192-4416">0000-0003-2192-4416</a>
+
+- title: Research leadership
   type: time_table
   contents:
-    - title: Chargé de Recherche
-      institution: Centre National de la Recherche Scientifique, France
-      year: 2017 -
-    - title: Postdoctoral Fellow
-      institution: IPGP, Paris, France
-      year: 2017
-    - title: Postdoctoral Fellow
-      institution: CEA, AIM, Saclay, France
-      year: 2015 - 2016
-    - title: Postdoctoral Fellow
-      institution: CNES, AIM, Saclay, France
-      year: 2013 - 2014
-    - title: Postdoctoral Scholar
-      institution: California Institute of Technology, Pasadena, Californie, USA
-      year: 2010 - 2012
-
-- title: Education
-  type: time_table
-  contents:
-    - title: Habilitation à diriger des recherches - HDR 
-      institution: Université Paris Cités
-      year: 2025       
-    - title: Ph.D. Planetary Geophysics
-      institution: IPGP
-      description: Advisor, Anne Mangney (IPGP), Co-Advisor, Daniel Mege (LPGN)
-      year: 2010 
-
+    - title: PHYGRAV Platform — Principal Investigator
+      institution: Physics-based models, surrogate tools, and decision support for hydro-gravitational hazards
+      year: Current
+      description:
+        - Landslides, avalanches, tsunamis, and hydro-sedimentary events.
+    - title: Natural Hazards Master's programme — Head
+      institution: Institut de Physique du Globe de Paris / Université Paris Cité
+      year: 2023–present
+    - title: Planetary Research Cooperative — Board member
+      institution: Community-led and diamond open-access publishing in planetary science
+      year: Current
 
 - title: Space mission involvement
   type: time_table
   contents:
     - title: EnVision — EuroSAR Science Team
-      institution: European Space Agency, ESA
-      year: 2026 -
-
+      institution: European Space Agency mission to Venus
+      year: 2026–present
+      description:
+        - Scientific preparation of radar investigations of Venusian surface processes and geological evolution.
     - title: InSight
-      institution: NASA Mars geophysical mission
-      year: 2016 - 2022
-
+      institution: NASA geophysical mission to Mars
+      year: 2016–2022
+      description:
+        - Environmental and surface-process seismology, including impacts, atmospheric activity, and mass wasting.
     - title: Cassini RADAR
-      institution: NASA/ESA/ASI Cassini-Huygens mission
-      year: 2010 - 2017
+      institution: NASA / ESA / ASI Cassini-Huygens mission
+      year: 2010–2017
+      description:
+        - Radar analysis of Titan's dunes, lakes, landscapes, and surface properties.
 
-
-- title: Research grants
+- title: Selected projects and grants
   type: time_table
   contents:
-    - title: AVALIASIS - Apprentissage multimodal temps réel pour la détection d’avalanches dans les réseaux sismiques
-      institution: GdR 720 IASIS
-      year: 2026-
-    - title: AVASEIS-3D - 3D Earth Observation to Decode Avalanche Seismology
-      institution: APR CNES
-      description: PI
-      year: 2026-     
-    - title: LISTEN-FLASH - Lunar Impact's Seismic and Telescopes European Network for Flash
-      institution: ERC Adv.
-      year: 2025-  
-      description: Coll.
-    - title: STERREO - Sediment Transport in StEep teRrains from Remote sensing & gEOchemistry
-      institution: APR CNES
-      year: 2024-  
-      description: PI
-    - title: EROSAT - ERosion from geOchemistry and remote Sensing of lAndslides in the Tropics
+    - title: AVALIASIS — Multimodal detection of avalanches in seismic networks
+      institution: GdR IASIS
+      year: 2026–present
+      description:
+        - Principal investigator; real-time detection and classification using seismic data and machine learning.
+    - title: AVASEIS-3D — 3D Earth Observation to Decode Avalanche Seismology
+      institution: CNES Research Programme
+      year: 2026–present
+      description:
+        - Principal investigator; field seismology, remote sensing, and modeling of snow avalanches.
+    - title: LISTEN-FLASH — Lunar Impact's Seismic and Telescopes European Network for Flash
+      institution: European lunar impact and seismology collaboration
+      year: 2025–present
+      description:
+        - Collaborator; joint interpretation of impact flashes and lunar seismic signals.
+    - title: STERREO — Sediment Transport in Steep Terrains from Remote Sensing and Geochemistry
+      institution: CNES Research Programme
+      year: 2024–present
+      description:
+        - Principal investigator; sediment transfer in Alpine and tropical catchments.
+    - title: EROSAT — Erosion from Geochemistry and Remote Sensing of Landslides in the Tropics
       institution: LabEx UnivEarthS
-      year: 2021-2023  
-      description: PI
-    - title:  SIERRA - remote-SensIng modEling from aRchived glacieR imAges
+      year: 2021–2023
+      description:
+        - Principal investigator.
+    - title: SIERRA — Remote-Sensing Modeling from Archived Glacier Images
       institution: INSU PNTS
-      year: 2022  
-      description: PI
+      year: 2022
+      description:
+        - Principal investigator.
 
+- title: Supervision and teaching
+  type: nested_list
+  contents:
+    - title: Current doctoral supervision
+      items:
+        - Lorraine Delaroque — Titan seismology and attenuation in planetary ice shells (30%, since 2024).
+        - Milan Mauro — Lunar environmental seismology and preparation for the Farside Seismic Suite (80%, from October 2026).
+    - title: Completed doctoral supervision
+      items:
+        - Yassine Boukhari (2025), Coline Hopquin (2025), Dung Tri Nguyen (2024), Alice Jacob (2022), Amande Roque-Bernard (2022), and Chloé Daudon (2020).
+    - title: Graduate and undergraduate research
+      items:
+        - Regular supervision of MSc and BSc projects in geomorphology, remote sensing, planetary science, seismology, and numerical modeling.
+        - Research topics and former students are listed on the <a href="/people/">People page</a>.
+    - title: Teaching leadership
+      items:
+        - Head of the Natural Hazards Master's programme at IPGP / Université Paris Cité since 2023.
 
+- title: Professional experience
+  type: time_table
+  contents:
+    - title: CNRS Research Scientist
+      institution: Institut de Physique du Globe de Paris, France
+      year: 2017–present
+    - title: Postdoctoral Fellow
+      institution: Institut de Physique du Globe de Paris, France
+      year: 2017
+    - title: Postdoctoral Fellow
+      institution: CEA / AIM, Saclay, France
+      year: 2015–2016
+    - title: CNES Postdoctoral Fellow
+      institution: AIM, Saclay, France
+      year: 2013–2014
+    - title: Postdoctoral Scholar
+      institution: California Institute of Technology, Pasadena, USA
+      year: 2010–2012
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Habilitation à diriger des recherches (HDR)
+      institution: Université Paris Cité
+      year: 2025
+      description:
+        - Geomorphic Transports in Terrestrial and Planetary Critical Zones.
+    - title: PhD in Planetary Geophysics
+      institution: Institut de Physique du Globe de Paris / Université Paris Diderot
+      year: 2010
+      description:
+        - "Thesis: Dynamique des instabilités gravitaires par modélisation et télédétection : applications aux exemples martiens."
+        - "Advisor: Anne Mangeney; co-advisor: Daniel Mège (LPG Nantes)."
