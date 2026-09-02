@@ -1,15 +1,23 @@
----
+
+<!-- saved from url=(0038)file:///Users/alucas/Downloads/cv.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body>---
 layout: default
 ---
 <!-- _layouts/cv.html -->
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
+            <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="file:///Users/alucas/Downloads/%7B%7B%20page.cv_pdf%20%7C%20prepend:%20&#39;assets/pdf/&#39;%20%7C%20relative_url%7D%7D" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
             <p class="post-description">{{ page.description }}</p>
           </header>
 
           <article>
+            {% if content != blank %}
+              <div class="cv-intro">
+                {{ content }}
+              </div>
+            {% endif %}
+
             <div class="cv">
               {% for entry in site.data.cv %}
                 <div class="card mt-3 p-3">
@@ -33,3 +41,4 @@ layout: default
           </article>
 
         </div>
+</body></html>
