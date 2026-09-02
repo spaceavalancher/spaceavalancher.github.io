@@ -10,8 +10,9 @@ current_supervision:
     status: Incoming
     status_class: incoming
     period: Starting October 2026
-    role: PhD student, 80% supervision
+    role: PhD student, 50% supervision
     topic: Lunar environmental seismology and scientific preparation for NASA's Farside Seismic Suite.
+    cosupervision: A. Mangeney
 
 recent_projects:
   - name: Noémie Divoux
