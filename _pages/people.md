@@ -2,218 +2,113 @@
 layout: page
 permalink: /people/
 title: People
-description:
+description: Current supervision, former team members, and student research projects.
 nav: true
 nav_order: 4
 ---
 
-<div class="people-page" markdown="1">
-I co-supervise PhD students and graduate students at IPGP across a range of research themes, including seismic signal classification, SAR-based and LiDAR monitoring of geomorphic processes, landslides and avalanches, sediment transport dynamics, and the modeling of surface evolution on Earth and other planetary bodies. These projects combine remote sensing, numerical simulations, seismology, and machine learning techniques.
+<div class="people-page">
+  <div class="people-intro">
+    <p>I supervise and co-supervise doctoral, graduate, and undergraduate research at the interface of geomorphology, geophysics, remote sensing, and planetary science. These projects combine field observations, space-mission data, image analysis, seismology, numerical modeling, and machine learning.</p>
+    <p>Research topics span mass wasting and sediment transport on Earth; active surface processes on Mars, Titan, and the Moon; and mission-driven environmental seismology.</p>
+  </div>
 
-They contribute to tackling complex questions at the intersection of geomorphology, geophysics, remote sensing, and planetary science, with a strong emphasis on:
+  <section class="people-section" aria-labelledby="current-supervision">
+    <h2 id="current-supervision">Current doctoral supervision</h2>
+    <div class="people-card-grid">
+      {% for person in site.data.people.current_supervision %}
+        <article class="people-card">
+          <div class="people-card-header">
+            <h3>{{ person.name }}</h3>
+            <span class="people-status people-status-{{ person.status_class }}">{{ person.status }}</span>
+          </div>
+          <p class="people-meta">{{ person.period }} · {{ person.role }}</p>
+          <p>{{ person.topic }}</p>
+          {% if person.cosupervision %}
+            <p class="people-cosupervision">Co-supervised with {{ person.cosupervision }}.</p>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </section>
 
-* **Earth surface dynamics** (mass wasting, sediment transport, landslides, avalanches),
-* **Planetary surfaces** (Titan, Moon, Mars) and mission-driven science (e.g., *Dragonfly*, *InSight*, *FSS*, *Cassini*, *Apollo*),
-* **Advanced methods** such as InSAR, LiDAR, seismic scattering, and machine learning (PINNs, detection algorithms, clustering).  
+  <section class="people-section" aria-labelledby="recent-projects">
+    <h2 id="recent-projects">Recent student projects</h2>
+    <p class="people-section-intro">Selected MSc and BSc projects completed or undertaken in 2026.</p>
+    <div class="people-project-grid">
+      {% for person in site.data.people.recent_projects %}
+        <article class="people-project">
+          <h3>{{ person.name }}</h3>
+          <p class="people-meta">{{ person.level }} · {{ person.institution }}</p>
+          <p>{{ person.topic }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
 
+  <section class="people-section" aria-labelledby="phd-alumni">
+    <h2 id="phd-alumni">PhD alumni</h2>
+    <div class="people-table-wrap">
+      <table class="people-table">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Year</th>
+            <th scope="col">Research</th>
+            <th scope="col">Supervision</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for person in site.data.people.phd_alumni %}
+            <tr>
+              <th scope="row">{{ person.name }}</th>
+              <td>{{ person.year }}</td>
+              <td>{{ person.topic }}</td>
+              <td>{{ person.supervision }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
 
-This is where applied field science meets computational geoscience and mission-oriented planetary studies. The research is both ambitious and strategic, especially as Earth and planetary processes become increasingly interconnected in modern geoscience.
+  <section class="people-section" aria-labelledby="former-team">
+    <h2 id="former-team">Former team members</h2>
+    <div class="people-project-grid">
+      {% for person in site.data.people.former_team %}
+        <article class="people-project">
+          <h3>{{ person.name }}</h3>
+          <p class="people-meta">{{ person.period }} · {{ person.role }}</p>
+          <p>{{ person.topic }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
 
-<p class="people-note">The group includes current PhD students and interns, as well as former postdoctoral researchers, engineers, and students whom I have supervised or co-supervised.</p>
-
-
-## Current PhD Students
-
-**Since 2024 — Lorraine Delaroque**
-*PhD student (30 % supervision, co-supervised with S. Rodriguez and T. Kawamura)*
-Works on Titan seismology in preparation for NASA’s *Dragonfly* mission (launch planned for 2036).
-
-## Current Interns
-
-**2026 — Noémie Divoux**
-*2nd-year MSc student in Natural Hazards, IPGP*
-Works on InSAR time series of the May 2025 Blatten avalanche.
-
-**2026 — Kean Ruzicska**
-*1st-year MSc student, Sorbonne Université*
-Develops numerical models of rock avalanches to define hazard scenarios and derive constraints for buildings and exposed infrastructure.
-
-**2026 — Fidèle Mochael**
-*3rd-year BSc student in Physics, Université Paris-Est Créteil*
-Studies boulder avalanches on the Moon.
-
-**2026 — Ségal Le Roy**
-*1st-year MSc student, IPGP*
-Works on multiscale roughness of bare soils.
-
-**Milan Mauro**
-*2nd year MSc in Computer Science, Université Savoie Mont Blanc*  
-Analyzes NASA’s InSight seismic data using scattering networks to classify seismic events recorded throughout the Martian mission.
-
-
-
-
-## Post-doctoral researchers
-
-**2020–2022 — Léa Bonnefoy**
-*Post-doctoral researcher (50 % supervision)*
-CNES-funded post-doc from November 2020 to November 2021, followed by a second year in partnership with Cornell University (2022).
-Under my scientific supervision, Léa investigated the dielectric properties of the planned *Dragonfly* landing site, which will probe Titan’s critical zone in 2036.
-The project resulted in multiple international conference presentations and one peer-reviewed publication.
-Léa is now completing her post-doctoral research at LMD, Sorbonne Université.
-
-**2021 — Shen Liang**
-*Post-doctoral researcher (100 % supervision, DiiP–funded PARKKER project, PI)*
-In 2021, Shen and I developed the **FARMYARD** framework, which led to two peer-reviewed conference papers and a manuscript currently under revision for *IEEE Transactions on Knowledge and Data Engineering*.
-Shen continues to work at DiiP on another project, and our collaboration remains active.
-
-
-## Research engineer
-
-**2021–2022 — Matthieu Gougeon**
-*Research engineer (100 % supervision)*
-Developed image-analysis tools for airborne (IGN), drone, and satellite data (SPOT, Pléiades, Sentinel…).
-Automated existing routines and produced high-level outputs such as digital elevation models, 3-D point clouds, and quality-control software.
-Co-author of Michon *et al.* (2023, HAL) and three additional papers (one in review, two in preparation).
-Matthieu now holds a permanent position at GeoAzur, after a period working in the industry sector.
-
-
-## Past PhD Students
-
-**Defended 2025 — Yassine Boukhari**
-*PhD student (80 % supervision, co-supervised with S. Jacquemoud)*
-Studied solid transport in small Alpine and tropical catchments using satellite imagery, LiDAR, long-term observatory records, and machine learning.
-
-**Defended 2025 — Coline Hopquin**
-*PhD student (30 % supervision, co-supervised with E. Gayer and L. Michon)*
-Investigates slow hillslope processes in the Rivière des Pluies basin on Réunion Island.
-
-**Defended 2024 — Dung Nguyen Tri**
-*PhD student (50 % supervision, co-supervised with S. Jacquemoud)*
-Focuses on bare-soil roughness retrieval through Bayesian inversion of BRDF data.
-
-**Defended 2022 — Alice Jacob**
-*PhD (25 % supervision, co-supervised with P. Lognonné and C. Perrin)*
-Thesis on seismo-tectonics for NASA’s *InSight* mission; two main papers published.
-After a sabbatical, Alice is now employed outside academia.
-
-**Defended 2022 — Amande Roque-Bernard**
-*PhD (60 % supervision, co-supervised with E. Lajeunesse)*
-Researched suspended-sediment transport in Guadeloupe; one paper published and code released on Zenodo.
-Amande now holds a permanent position in the finance sector.
-
-**Defended 2020 — Chloé Daudon**
-*PhD (30 % supervision, co-supervised with S. Rodriguez and S. Jacquemoud)*
-Authored one published paper and a second currently under review.
-Currently post-doctoral researcher at Caltech.
-
-
-## Past Interns since 2017
-
-**Grégoire Vest**
-*Final-year engineering student, EPITA*
-Develops physics-informed neural networks to infer surface properties from SAR data and detect avalanches.
-
-**Marceau Cottrez**
-*Final-year engineering student, EPITA*
-Applies AI to 3D LiDAR point clouds for vegetation structure and biomass estimation.
-
-**Valentine Hoscoet**
-*1st-year MSc student in Natural Hazards, IPGP*
-Uses scattering networks to classify seismic signals from debris, rock, and snow avalanches.
-
-**Thibault Chardon**
-*1st-year MSc student in Natural Hazards, IPGP*
-Detects snow avalanches in medium-resolution SAR imagery using machine learning.
-
-**Lisa Corzani**
-*1st-year MSc student in Planetary Sciences, PSL*
-Maps rockfalls near NASA’s FSS lunar landing site to assess surface mass wasting.
-
-**Marta Ducamp**
-*2nd-year engineering student in Geomatics & Photogrammetry, ENSG-IGN*
-Quantifies lunar surface roughness at multiple scales from Apollo mission imagery.
-
-**Mathilde Ballot**
-*3rd-year SciencePo-IPGP student in Geophysics*
-Models snow-avalanche backscattering using Sentinel-1 SAR data.
-
-**Matthieu Lecocq**
-*1st-year MSc student in Geophysics, IPGP*
-Detects dust avalanches on Mars using orbital imagery.
-
-**Mathilde Griffaton**
-*3rd-year BSc student, Université Paris-Saclay*
-Develops and tests prototype turbidity sensors for field applications.
-
-**Lounis Ait Oufella**
-*1st-year MSc student, Sorbonne Université*
-Studies landslide energy dissipation processes across the Solar System.
-
-**Yassine Boukhari**
-*2nd-year MSc student, Sorbonne Université*
-Modeled snow-avalanche backscattering using Sentinel-1 SAR data.
-
-**Manon Le Teuff**
-*1st-year BSc student, PSL*
-Analyzed the post-seismic decay of dust-avalanche activity on Mars.
-
-**Justine Vilette**
-*2nd-year MSc student, Sorbonne Université*
-Developed physics-based machine-learning methods to extract topography from radar backscattering.
-
-**Adama Bah**
-*1st-year MSc student, IPGP*
-Detected dust avalanches on Mars using convolutional neural networks.
-
-**Alexandra Le Contellec**
-*Undergraduate intern (4 months), institution not specified*
-Performed photogrammetric analysis of Jovian satellite imagery.
-
-**Lucas Bourdon**
-*1st-year MSc student, Université de Paris & IPGP*
-Evaluated the detectability of slope-instability seismic signals in NASA’s InSight data.
-
-**Julie Losen**
-*2nd-year MSc student, Université de Paris & IPGP*
-Compared Earth and Mars landslides to study molard formation under permafrost degradation.
-
-**Ayah Taihi**
-*1st-year MSc student in Physics, institution not specified*
-Studied light scattering in water-mineral particulate mixtures.
-
-**Sahand Sharifi**
-*2nd-year MSc student, Université de Paris & IPGP*
-Investigated microwave backscattering properties of avalanches and surface roughness estimation.
-
-**Tuyen Nguyen**
-*2nd-year MSc student, Université de Paris & IPGP*
-Studied fluvial sediment transport evolution using radar interferometry.
-
-**Thomas Frasson**
-*1st-year MSc student, ENS Lyon*
-Parameterized friction laws through numerical modeling of gravitational processes.
-
-**Bastien Gonzalez**
-*1st-year MSc student, Sorbonne Université*
-Reconstructed the 20th-century evolution of the Bossons Glacier using aerial photogrammetry.
-
-**Valérie Genoud-Prachet**
-*2nd-year MSc student, Université Paris-Diderot*
-Monitored surface-state evolution in high-erosion tropical regions using satellite data from Réunion Island.
-
-**Alice Jacob**
-*2nd-year MSc student, Université Paris-Diderot*
-Combined seismo-tectonics and planetary photogrammetry in preparation for NASA’s InSight mission.
-
-**Ivan Osorio**
-*1st-year MSc student, Sorbonne Université*
-Modeled Titan’s landscape dynamics using numerical simulations.
-
-**Amande Roque-Bernard**
-*2nd-year MSc student, Université Paris-Diderot*
-Analyzed Cassini RADAR data using microwave-domain photogrammetry.
-
-
-<br />
+  <section class="people-section" aria-labelledby="student-archive">
+    <h2 id="student-archive">Student project archive</h2>
+    <details class="people-archive">
+      <summary>View MSc, BSc, and engineering projects since 2017</summary>
+      <div class="people-table-wrap">
+        <table class="people-table people-table-archive">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Programme</th>
+              <th scope="col">Research project</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for person in site.data.people.student_archive %}
+              <tr>
+                <th scope="row">{{ person.name }}</th>
+                <td>{{ person.level }}{% if person.institution %}<br><span class="people-institution">{{ person.institution }}</span>{% endif %}</td>
+                <td>{{ person.topic }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </details>
+  </section>
 </div>
