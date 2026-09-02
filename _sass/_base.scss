@@ -822,20 +822,209 @@ footer.sticky-bottom {
 }
 
 .people-page {
-  .people-note {
-    margin-top: 1rem;
-    margin-bottom: 1.75rem;
-    padding: 0.85rem 1rem;
-    border-left: 3px solid var(--global-theme-color);
-    background: rgba(0, 0, 0, 0.025);
-    font-size: 0.98rem;
+  .people-intro {
+    max-width: 850px;
+    margin-bottom: 2rem;
+    font-size: 1.02rem;
+    line-height: 1.6;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
   }
 
-  h2 {
-    margin-top: 2rem;
+  .people-section {
+    margin-top: 2.4rem;
+
+    > h2 {
+      margin-bottom: 0.85rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--global-divider-color);
+      font-size: 1.45rem;
+    }
+  }
+
+  .people-section-intro {
+    margin-top: -0.3rem;
     margin-bottom: 1rem;
-    padding-bottom: 0.35rem;
-    border-bottom: 1px solid var(--global-divider-color);
+    color: var(--global-text-color-light);
+    font-size: 0.95rem;
+  }
+
+  .people-card-grid,
+  .people-project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.85rem;
+  }
+
+  .people-card,
+  .people-project {
+    padding: 1rem 1.05rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.4rem;
+    background: var(--global-card-bg-color);
+
+    h3 {
+      margin: 0;
+      font-size: 1.08rem;
+      line-height: 1.3;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .people-card {
+    border-top: 3px solid var(--global-theme-color);
+  }
+
+  .people-card-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.7rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .people-status {
+    flex: 0 0 auto;
+    padding: 0.18rem 0.48rem;
+    border: 1px solid var(--global-theme-color);
+    border-radius: 999px;
+    color: var(--global-theme-color);
+    font-size: 0.72rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  .people-status-incoming {
+    border-color: var(--global-text-color-light);
+    color: var(--global-text-color-light);
+  }
+
+  .people-meta,
+  .people-cosupervision {
+    color: var(--global-text-color-light);
+    font-size: 0.88rem;
+    line-height: 1.4;
+  }
+
+  .people-meta {
+    margin: 0.15rem 0 0.65rem;
+  }
+
+  .people-cosupervision {
+    margin-top: 0.65rem;
+  }
+
+  .people-table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.4rem;
+  }
+
+  .people-table {
+    width: 100%;
+    margin: 0;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+
+    th,
+    td {
+      padding: 0.7rem 0.75rem;
+      border-bottom: 1px solid var(--global-divider-color);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    thead th {
+      background: rgba(127, 127, 127, 0.08);
+      color: var(--global-text-color);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    tbody tr:last-child th,
+    tbody tr:last-child td {
+      border-bottom: 0;
+    }
+
+    tbody th {
+      min-width: 145px;
+      color: var(--global-text-color);
+      font-weight: 600;
+    }
+  }
+
+  .people-institution {
+    color: var(--global-text-color-light);
+    font-size: 0.82rem;
+  }
+
+  .people-archive {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.4rem;
+    background: var(--global-card-bg-color);
+
+    summary {
+      padding: 0.85rem 1rem;
+      color: var(--global-theme-color);
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    &[open] summary {
+      border-bottom: 1px solid var(--global-divider-color);
+    }
+
+    .people-table-wrap {
+      border: 0;
+      border-radius: 0;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .people-card-grid,
+    .people-project-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .people-table {
+      min-width: 680px;
+    }
+
+    .people-card-header {
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .people-card,
+    .people-project {
+      transition: border-color 0.15s ease;
+
+      &:hover {
+        border-color: var(--global-theme-color);
+      }
+    }
+  }
+
+  @media print {
+    .people-archive {
+      summary {
+        display: none;
+      }
+    }
+
+    .people-archive:not([open]) > *:not(summary) {
+      display: block;
+    }
   }
 }
 
