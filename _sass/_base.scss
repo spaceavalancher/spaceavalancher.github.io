@@ -1430,12 +1430,12 @@ footer.sticky-bottom {
 }
 
 .numbered-articles {
-  counter-reset: published-article;
+  counter-reset: reversed(published-article);
 
   .publication-year--published ol.bibliography > li {
     position: relative;
     padding-left: 3rem;
-    counter-increment: published-article;
+    counter-increment: published-article -1;
 
     &::before {
       position: absolute;
