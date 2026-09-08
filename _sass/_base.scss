@@ -1430,14 +1430,11 @@ footer.sticky-bottom {
 }
 
 .numbered-articles {
-  counter-reset: reversed(published-article);
-
   .publication-year--published ol.bibliography > li {
     position: relative;
     padding-left: 3rem;
-    counter-increment: published-article -1;
 
-    &::before {
+    .publication-number {
       position: absolute;
       top: 0;
       left: 0;
@@ -1445,7 +1442,6 @@ footer.sticky-bottom {
       color: var(--global-text-color-light);
       font-weight: 700;
       text-align: right;
-      content: counter(published-article) ".";
     }
   }
 }
