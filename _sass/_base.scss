@@ -1429,6 +1429,27 @@ footer.sticky-bottom {
   }
 }
 
+.numbered-articles {
+  counter-reset: published-article;
+
+  .publication-year--published ol.bibliography > li {
+    position: relative;
+    padding-left: 3rem;
+    counter-increment: published-article;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1.8rem;
+      color: var(--global-text-color-light);
+      font-weight: 700;
+      text-align: right;
+      content: counter(published-article) ".";
+    }
+  }
+}
+
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;
