@@ -42,6 +42,21 @@ nav_order: 3
 
 </div>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const articles = document.querySelectorAll(
+      ".numbered-articles .publication-year--published ol.bibliography > li"
+    );
+
+    articles.forEach(function (article, index) {
+      const number = document.createElement("span");
+      number.className = "publication-number";
+      number.textContent = articles.length - index + ".";
+      article.prepend(number);
+    });
+  });
+</script>
+
 <h1 id="comments-news-views-perspectives" class="post-title">News &amp; Views and Perspectives</h1>
 
 <div class="publications">
