@@ -27,15 +27,17 @@ nav_order: 3
   · <a href="#thesis">Thesis</a>
 </div>
 
-<div class="publications">
+<div class="publications numbered-articles">
 
 <h2 id="articles">Articles</h2>
 
 {%- for y in page.years %}
   {% assign y_string = y | append: "" %}
   {% assign y_id = y_string | replace: " ", "-" %}
+  <section class="publication-year{% unless y_string == 'in review' %} publication-year--published{% endunless %}">
   <h2 id="pub-{{ y_id }}" class="year">{{ y }}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}
+  </section>
 {% endfor %}
 
 </div>
