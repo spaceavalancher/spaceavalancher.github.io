@@ -92,7 +92,7 @@ This page gathers research datasets, scientific software, teaching resources, an
 
   <div class="video-entry">
     <h3 id="avalanche-de-debris-nepal">Nepal–Tibet rock-and-ice avalanche and flood</h3>
-    <p>Initial SHALTOP simulation alongside long-period vertical ground motion recorded at three seismic stations and its time–frequency content. On 26 August 2026, a major rock-and-ice collapse near the Nepal–Tibet border propagated through a confined valley, entrained additional material, and interacted with the river system to produce a destructive sediment-laden flood.
+    <p>Initial SHALTOP simulation alongside long-period vertical ground motion recorded at three seismic stations and its time–frequency content. On 26 August 2026, a major rock-and-ice collapse near the Nepal–Tibet border propagated through a confined valley, entrained additional material, and interacted with the river system to produce a destructive sediment-laden flood.</p>
         <div class="video-embed">
       <iframe width="500" height="250" src="https://www.ipgp.fr/wp-content/uploads/2026/09/NEPAL_IMOVIE_IPGP.mp4" title="Avalanche de débris au Nepal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
