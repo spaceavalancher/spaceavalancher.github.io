@@ -91,6 +91,15 @@ This page gathers research datasets, scientific software, teaching resources, an
   <h2 class="category resource-videos-title">Videos</h2>
 
   <div class="video-entry">
+    <h3 id="avalanche-de-debris-nepal">Nepal–Tibet rock-and-ice avalanche and flood</h3>
+    <p>Initial SHALTOP simulation alongside long-period vertical ground motion recorded at three seismic stations and its time–frequency content. On 26 August 2026, a major rock-and-ice collapse near the Nepal–Tibet border propagated through a confined valley, entrained additional material, and interacted with the river system to produce a destructive sediment-laden flood.
+        <div class="video-embed">
+      <iframe width="500" height="250" src="[https://www.youtube.com/embed/POq5UPN2kmY](https://www.ipgp.fr/wp-content/uploads/2026/09/NEPAL_IMOVIE_IPGP.mp4)" title="Avalanche de débris au Nepal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+
+
+  <div class="video-entry">
     <h3 id="avalanche-de-debris-responsable-dun-tsunami-dans-un-fjord-au-groenland">Avalanche de débris responsable d&#39;un tsunami dans un Fjord au Groenland</h3>
     <p>Animation réalisée en 2024 pour la publication {% cite svennevig:insu-04725704 %}</p>
     <div class="video-embed">
